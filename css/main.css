@@ -1,0 +1,135 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* Header */
+.main-logo{
+  width: 266px;
+  height: auto;
+}
+
+.main-nav-front{
+  position: absolute;
+  z-index: 2;
+}
+
+.main-nav-back{
+  position: absolute;
+  z-index: -1;
+}
+
+nav .navbar-nav li a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  font-size: 19px;
+  line-height:25px;
+  color: white !important;
+}
+
+nav .navbar-nav li a:hover{
+  color: #F9A11B !important;
+}
+
+nav .navbar-nav > .active > a{
+  text-decoration: underline !important;
+}
+
+.margin-left-header {
+  margin: 0 0 0 145px;
+}
+
+.margin-right-header {
+  margin: 0 145px 0 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    text-align: center;
+  }
+}
+/* End Header */
+
+/* Main Content */
+.hor-rule{
+  width: 75%;
+  height: 6px;
+  background-color: #F9A11B;
+}
+
+.main-content-top-spacer{
+  padding: 120px 0 40px 0;
+}
+
+.main-content-bottom-spacer{
+  padding: 40px 0 120px 0;
+}
+
+  .main-content p {
+    font-size:17px;
+    line-height:26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    color: #000000;
+  }
+
+  .main-content h1{
+    font-size:30px;
+    line-height:46px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-weight:700;
+  }
+
+  .main-content h2{
+    font-size:20px;
+    line-height:24px;
+    letter-spacing:2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    color: #000000;
+  }
+/* End Main Content */
+
+/* Footer */
+.footer-main{
+  background-color: #000000;
+  padding: 35px;
+}
+
+.footer-text-main{
+  font-size:13px;
+  text-align: center;
+  line-height:13px;
+  letter-spacing:2px;
+  padding-bottom:27px;
+}
+
+.footer-text-sub{
+  font-size:10px;
+  line-height:12px;
+  letter-spacing:1px;
+  padding-right:1px;
+  padding-top:11px;
+}
+
+.footer-main h2{
+  font-size:20px;
+  line-height:24px;
+  letter-spacing:2px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  color: #000000;
+}
+/* End Footer */
+
+@media (max-width: 1366px) {
+  .margin-left-header {
+    margin: 0 0 0 50px;
+  }
+  .margin-right-header {
+    margin: 0 50px 0 0;
+  }
+}
