@@ -33,6 +33,10 @@ nav .navbar-nav > .active > a{
   text-decoration: underline !important;
 }
 
+.navbar-collapse.in {
+    background-color: blue;
+}
+
 .margin-left-header {
   margin: 0 0 0 145px;
 }
