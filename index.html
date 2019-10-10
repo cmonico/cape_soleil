@@ -13,38 +13,46 @@
   </head>
   <body>
     <header>
-      <div class="container-fluid main-nav-front">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand abs" href="#"><img class="main-logo" alt="Cape Soleil Logo" src="images/CapeSoleil_logo_reverse.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="collapsingNavbar">
-                <ul class="navbar-nav margin-left-header">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Collections
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto margin-right-header">
-                  <li class="nav-item">
-                      <a class="nav-link" href="#myAlert" data-toggle="collapse">Dealer Locator</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Contact</a>
-                  </li>
-                </ul>
-            </div>
-        </nav>
+      <div class="main-nav-front">
+        <div class="main_nav_text">
+          <ul>
+            <li style="float:left"><a href="index.html" title="Home Page">Home</a></li>
+            <li style="float:left"><a href="sub_pages/collections.html" title="Collections Page">Collections</a></li>
+            <li style="float:right"><a href="sub_pages/dlocator.html" title="Dealer Locator Page">Dealer Locator</a></li>
+            <li style="float:right"><a href="sub_pages/contact.html" title="Contact Page">Contact</a></li>
+          </ul>
+        </div>
+        <div class="main_nav_logo_section">
+          <div class="main_logo">
+            <a href="index.html" title="Home Page"><img class="main-logo" alt="Cape Soleil Logo" src="images/CapeSoleil_logo_reverse.png"></img></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_nav_phone">
+        <div class="logo_menu">
+          <div class="main_logo">
+            <a href="index.html" title="Home Page"><img src="img/devcon_logo.png" width="100%" height="auto" alt="DevCon Logo"></img></a>
+          </div>
+          <div class="hamburger_menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+
+        <div class="mobile_nav_text">
+          <ul>
+            <li id="register_padding"><a href="sub_pages/register.html" title="Register Page">Home</a></li>
+            <li><div class="nav_bar"></div></li>
+            <li><a href="sub_pages/speakers.html" title="Speakers Page">Collections</a></li>
+            <li><div class="nav_bar"></div></li>
+            <li><a href="sub_pages/schedule.html" title="Schedule Page">Dealer Locator</a></li>
+            <li><div class="nav_bar"></div></li>
+            <li><a href="sub_pages/info/info.html" title="Information Pages">Contact</a></li>
+            <li><div class="nav_bar"></div></li>
+          </ul>
+        </div>
       </div>
 
       <div class="carousel slide main-nav-back" data-ride="carousel">
@@ -70,6 +78,23 @@
 
     <section>
       <div class="container-fluid main-content">
+        <div class="row ">
+          <div class="col-5">
+            <div class="whycapeso-body">
+            <p>Created with hoteliers in mind, Cape Soleil Outdoor Furniture offers beauty, function and simplicity in a selection of materials, patterns and tones designed to complement any style, from sophisticated elegance to casual and breezy. Using only the strongest components and the trusted and proven SunbrellaTM fabric for cushions, Cape Soleil Outdoor Furniture puts the hotelier in the designer’s chair to create unique spaces guaranteed to impress and endure.</p>
+            </div>
+          </div>
+          <div class="col-7 px-0 py-0 ">
+            <div class="whycapeso-main-container">
+              <div class="whycapeso-background">
+                <div class="whycapeso-text">
+                  WHY CHOOSE<br>CAPE SOLEIL
+                </div>
+              </div>
+            </div>
+            <!--<img src="images/REESE4PCL-ASH_LIF.jpg" width="100%" height="auto" alt="...">-->
+          </div>
+        </div>
         <div class="row main-content-top-spacer">
           <div class="col-1">
           </div>
@@ -81,32 +106,58 @@
           <div class="col-1">
           </div>
         </div>
-        <div class="row">
-          <div class="col-1 col-sm-2 col-md-3">
-          </div>
-          <div class="col-10 col-sm-8 col-md-6">
-          </div>
-          <div class="col-sm-2 col-md-3">
-          </div>
-        </div>
       </div>
     </section>
 
     <footer>
       <div class="container-fluid footer-main text-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-2 footer-text-main">
-              <center>
-                <img src="http://townebarbers.net/images/townebarberslogowhite.png?crc=340073891" alt="Footer Logo Main" width="155px" height="auto" style="margin:20px 0;">
-              </center>
-              <p>Footer</p>
-              <p>Footer</p>
+        <hr class="footer-hor-rule">
+        <div class="row">
+          <div class="col-md-1 col-sm-1">
+          </div>
+          <div class="col-md-2">
+            <img class="footer-logo" alt="Cape Soleil Logo" src="images/CapeSoleil_logo.png">
+            <div class="footer-text-main">
+              <p>Hotels, restaurants & resorts look to outdoor furniture to offer the best experience for guests by following the latest trends to keep spaces fresh. We keep guests coming back.
+                <a href="http://www.almoproav.net/campaigns/hospitality/docs/apav_CapeSoleil_2019Brochure.pdf" target="_blank">Download Brochure Now »</a>
+              </p>
             </div>
-            <div class="col-sm-2">
-            </div>
-            <div class="col-sm-2">
-            </div>
+            <div class="footer-text-copyright"><p>® 2019 Cape Soleil. All Rights Reserved.</p></div>
+          </div>
+          <div class="col-md-2 footer-column-spacer footer-text-sub">
+            <ul>
+              <li><a href="#" target="_blank">Home</a></li>
+              <li><a href="#" target="_blank">Products</a></li>
+              <li><a href="#" target="_blank">Collections</a></li>
+              <li><a href="#" target="_blank">Dealer Locator</a></li>
+              <li><a href="#" target="_blank">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-text-sub">
+            <ul>
+              <li class="collections-footer-header">COLLECTIONS</li>
+              <li><a href="#" target="_blank">Fairhill Collection</a></li>
+              <li><a href="#" target="_blank">Fairhill Lounge Collection</a></li>
+              <li><a href="#" target="_blank">Wendle Lounge</a></li>
+              <li><a href="#" target="_blank">Richmond Collection</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-column-spacer footer-text-sub">
+            <ul>
+              <li><a href="#" target="_blank">Richmond Lounge Collection</a></li>
+              <li><a href="#" target="_blank">Edgemont Collection</a></li>
+              <li><a href="#" target="_blank">Livingston Collection</a></li>
+              <li><a href="#" target="_blank">Fire Pits</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-column-spacer footer-text-sub">
+            <ul>
+              <li><a href="#" target="_blank">Patio Heaters</a></li>
+              <li><a href="#" target="_blank">Outdoor TV & Mounts</a></li>
+              <li><a href="#" target="_blank">Fabrics</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-1 col-sm-1">
           </div>
         </div>
       </div>
