@@ -127,9 +127,11 @@ nav .navbar-nav > .active > a{
 /* End Header */
 
 /* Main Content */
+
+/*
 .whycapeso-main-container{
   width: 100%;
-  height: 800px;
+  height: 600px;
   background-color: blue;
   background-image: url('../images/REESE4PCL-ASH_LIF.jpg');
   position: relative;
@@ -144,7 +146,7 @@ nav .navbar-nav > .active > a{
     content:'';
   }
 */
-
+/*
 .whycapeso-background{
   width: 75%;
   height: 30%;
@@ -166,7 +168,6 @@ nav .navbar-nav > .active > a{
 }
 
 .whycapeso-body{
-  padding: relative;
   width: 75%;
   height: auto;
   padding: 25px 35px 15px 35px;
@@ -174,11 +175,129 @@ nav .navbar-nav > .active > a{
   margin-right: auto;
   background-color: rgba(255, 255, 255, 0.75);
 }
+*/
+
+.capeso-main-body{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.capeso-text-body-container{
+  position: absolute;
+  z-index: 1;
+  height: 600px;
+  padding: 150px;
+}
+
+.capeso-text-body{
+  position: absolute;
+  left: 60px;
+  width: 600px;
+  height: auto;
+  float:left;
+  padding: 25px 35px 15px 35px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.capeso-image{
+  position: absolute;
+  z-index: -1;
+  width: 60%;
+  height: 600px;
+  float:right;
+  background-color: blue;
+  background-image: url('../images/REESE4PCL-ASH_LIF.jpg');
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.capeso-image-box{
+  position: relative;
+  width: 55%;
+  height: 30%;
+  background-color: rgba(0, 167, 225, 0.6);
+  top: 10%;
+  margin-left: auto;
+  font-family: 'Federo', sans-serif;
+  color: #ffffff;
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.capeso-box-text{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+.main-content-margin{
+    margin: 80px 0 80px 0;
+}
+
+.warranty-main-body{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.warranty-text-body-container{
+  position: absolute;
+  height: 600px;
+  padding: 150px;
+}
+
+.warranty-text-body{
+  position: relative;
+  width: 600px;
+  height: auto;
+  float:right;
+  padding: 25px 35px 15px 35px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.warranty-image{
+  position: absolute;
+  z-index: -1;
+  width: 60%;
+  height: 600px;
+  float:left;
+  background-color: blue;
+  background-image: url('../images/Bambray_AM0I4133RV.jpg');
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.warranty-image-box{
+  position: relative;
+  width: 55%;
+  height: 30%;
+  background-color: rgba(0, 167, 225, 0.6);
+  top: 10%;
+  margin-right: auto;
+  font-family: 'Federo', sans-serif;
+  color: #ffffff;
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.warranty-box-text{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 15px 25px 15px 15px;
+  text-align: right;
+}
+
 
 .hor-rule{
-  width: 75%;
+  width: 98%;
   height: 10px;
   background-color: #F9A11B;
+  margin: 0 0 15px 0;
 }
 
 .main-content-top-spacer{
