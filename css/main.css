@@ -20,57 +20,7 @@ body {
   z-index: -1;
 }
 
-nav .navbar-nav li a{
-  font-family: 'Open Sans', sans-serif;
-  font-weight:600;
-  font-size: 19px;
-  line-height:25px;
-  color: white !important;
-}
-
-nav .navbar-nav li a:hover{
-  color: #F9A11B !important;
-}
-
-nav .navbar-nav > .active > a{
-  text-decoration: underline !important;
-}
-
-.navbar-collapse.in {
-    background-color: blue;
-}
-
-.margin-left-header {
-  margin: 0 0 0 145px;
-}
-
-.margin-right-header {
-  margin: 0 145px 0 0;
-}
-
-@media (min-width: 768px) {
-  .navbar-brand.abs {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
-  nav.navbar {
-    background: lightgray;
-    margin: 0;
-  }
-}
-
-
 /*Header For Main Pages*/
-    .main_nav{
-      display:block;
-    }
-
     .main_nav_phone{
       display: none;
     }
@@ -83,8 +33,10 @@ nav .navbar-nav > .active > a{
      font-size: 19px;
      line-height:25px;
      color: white !important;
+     margin: 10px 0;
     }
 
+    /* Positions nav text in from sides, removes padding, removes list bullets. */
     .main_nav_text ul {
      list-style-type: none;
      margin-top: 0;
@@ -112,71 +64,19 @@ nav .navbar-nav > .active > a{
       display: flex;
       width: 100%;
       height: auto;
-      margin-top: -5px;
     }
 
-    .main_logo {
+    .main_logo_container {
       width:33%;
       height:132px;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: -60px auto 0 auto;
+      margin: -105px auto 0 auto;
     }
 
-/* End Header */
 
-/* Main Content */
-
-/*
-.whycapeso-main-container{
-  width: 100%;
-  height: 600px;
-  background-color: blue;
-  background-image: url('../images/REESE4PCL-ASH_LIF.jpg');
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/*
-  .capeso-main-container:after{
-    padding-top:56.25%;
-    display: block;
-    content:'';
-  }
-*/
-/*
-.whycapeso-background{
-  width: 75%;
-  height: 30%;
-  background-color: rgba(0, 167, 225, 0.6);
-  position: relative;
-  top: 30%;
-  margin-left: auto;
-  font-family: 'Federo', sans-serif;
-  color: #ffffff;
-  font-size: 72px;
-  line-height: 80px;
-}
-
-.whycapeso-text{
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 50px;
-}
-
-.whycapeso-body{
-  width: 75%;
-  height: auto;
-  padding: 25px 35px 15px 35px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(255, 255, 255, 0.75);
-}
-*/
-
+/* Index Body */
 .capeso-main-body{
   position: relative;
   width: 100%;
@@ -245,6 +145,7 @@ nav .navbar-nav > .active > a{
 
 .warranty-text-body-container{
   position: absolute;
+  left: 57%;
   height: 600px;
   padding: 150px;
 }
@@ -292,7 +193,6 @@ nav .navbar-nav > .active > a{
   text-align: right;
 }
 
-
 .hor-rule{
   width: 98%;
   height: 10px;
@@ -300,38 +200,27 @@ nav .navbar-nav > .active > a{
   margin: 0 0 15px 0;
 }
 
-.main-content-top-spacer{
-  padding: 120px 0 40px 0;
+.main-content p {
+  font-size:17px;
+  line-height:26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  color: #000000;
 }
 
-.main-content-bottom-spacer{
-  padding: 40px 0 120px 0;
+.main-content h1{
+  font-size:30px;
+  line-height:46px;
+  color: #F9A11B;
+  font-family: 'Federo', sans-serif;
+  font-weight:700;
 }
 
-  .main-content p {
-    font-size:17px;
-    line-height:26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:400;
-    color: #000000;
-  }
-
-  .main-content h1{
-    font-size:30px;
-    line-height:46px;
-    color: #F9A11B;
-    font-family: 'Federo', sans-serif;
-    font-weight:700;
-  }
-
-  .main-content h2{
-    font-size:20px;
-    line-height:24px;
-    letter-spacing:2px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:400;
-    color: #000000;
-  }
+.main-content-badges{
+  margin-bottom: 20px;
+  width: 60%;
+  height: auto;
+}
 /* End Main Content */
 
 /* Footer */
@@ -345,8 +234,14 @@ hr.footer-hor-rule{
   width: 90%;
 }
 
+hr.footer-hor-rule-small{
+  border: 3px solid #52544A;
+  border-radius: 3px;
+  width: 60%;
+}
+
 .footer-logo{
-  width: 70%;
+  width: 140px;
   height: auto;
   margin: 30px 0 10px 0;
 }
@@ -418,22 +313,337 @@ hr.footer-hor-rule{
   line-height: 25px;
   color: #000000;
 }
-
-.footer-main h2{
-  font-size:20px;
-  line-height:24px;
-  letter-spacing:2px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight:700;
-  color: #000000;
-}
 /* End Footer */
 
-@media (max-width: 1366px) {
-  .margin-left-header {
-    margin: 0 0 0 50px;
+@media screen and (max-width: 1150px){
+  .main_nav_text{
+   font-size: 17px;
   }
-  .margin-right-header {
-    margin: 0 50px 0 0;
+
+  /* Positions nav text in from sides, removes padding, removes list bullets. */
+  .main_nav_text ul {
+   margin-left: 40px;
+   margin-right: 40px;
   }
+
+  .main-logo{
+    width: 175px;
+    height: auto;
+  }
+
+  .main_logo_container {
+    margin: -125px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer-logo{
+    width: 70%;
+    height: auto;
+    margin: 30px 0 10px 0;
+  }
+  .footer-text-copyright{
+    position: relative;
+    margin: 0px 0px 60px 0px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 25px;
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* Positions nav text in from sides, removes padding, removes list bullets. */
+  .main_nav_text ul {
+   margin-left: 20px;
+   margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+/* Ipad */
+}
+
+@media screen and (max-width: 730px) {
+  .main-nav-front{
+    display: none;
+  }
+
+  .main-logo{
+    width: 180px;
+    height: auto;
+  }
+
+  .main_nav_phone{
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height:auto;
+    background-color: transparent;
+  }
+
+  .main_nav_phone_toggle{
+    background-color: #00A7E1;
+  }
+
+  .logo_menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .main_logo_container {
+    display: flex;
+    width:70%;
+    height:auto;
+    margin: 15px 0 0 50px;
+    justify-content: flex-start;
+  }
+
+  .hamburger_menu{
+    display: relative;
+    width: auto;
+    height: 35px;
+    margin: 40px auto 0 auto;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .mobile_nav_text{
+    display: none;
+    width:100%;
+    height: 100vh;
+    background-color: #00A7E1;
+    text-align: center;
+  }
+
+    .mobile_nav_text a{
+      color: #ffffff;
+      font-size: 36px;
+      text-decoration: none;
+    }
+
+    .mobile_nav_text ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .mobile_nav_text li{
+        margin: 10px auto 10px auto;
+    }
+
+      #home_padding{
+        padding-top: 10px;
+      }
+
+      #nav_text_small a{
+        font-size: 24px;
+
+      }
+  .nav_bar{
+    align-items: center;
+    width: 90%;
+    height: 10px;
+    background-color: #F9A11B;
+    margin: 0 auto 0 auto;
+    transition: 0.4s;
+  }
+
+  .nav_bar_2{
+    width: 80%;
+    height: 7px;
+    background-color: #F9A11B;
+    margin: 0 auto 0 auto;
+    transition: 0.4s;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .main_logo_container {
+    margin: 15px 0 0 45px;
+  }
+
+  /* Footer */
+  .footer-text-main{
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+    .footer-text-main a{
+      font-weight: 700;
+      font-size: 13px;
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .footer-text-main a:hover{
+      text-decoration: none;
+      color: #F9A11B;
+    }
+
+    .footer-text-sub{
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .footer-text-sub ul li{
+      font-size: 13px;
+    }
+
+      .footer-text-sub a{
+        font-size: 13px;
+      }
+
+  .collections-footer-header{
+    font-family: 'Federo', sans-serif;
+    font-size: 17px;
+    position: relative;
+    margin: 65px 0 20px 0;
+  }
+
+  .footer-text-copyright{
+    position: relative;
+    margin: 0px 0px 125px 0px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 25px;
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hamburger_menu{
+    margin: 30px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+    /* Iphone 8 Plus */
+  .main_logo_container {
+    width: 70%;
+    margin: 15px 0 0 30px;
+  }
+
+  .hamburger_menu{
+    display: relative;
+    width: auto;
+    height: 35px;
+    margin: 27px auto 0 auto;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #E83D4D;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .main-nav-front{
+    display: none;
+  }
+
+  .main-logo{
+    width: 130px;
+    height: auto;
+  }
+
+  .main_nav_phone{
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height:auto;
+    background-color: transparent;
+  }
+
+  .main_nav_phone_toggle{
+    background-color: #00A7E1;
+  }
+
+  .logo_menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .mobile_nav_text{
+    display: none;
+    width:100%;
+    height: 100vh;
+    background-color: #00A7E1;
+    text-align: center;
+  }
+
+    .mobile_nav_text a{
+      color: #ffffff;
+      font-size: 36px;
+      text-decoration: none;
+    }
+
+    .mobile_nav_text ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .mobile_nav_text li{
+        margin: 10px auto 10px auto;
+    }
+
+      #home_padding{
+        padding-top: 10px;
+      }
+
+      #nav_text_small a{
+        font-size: 24px;
+
+      }
+  .nav_bar{
+    align-items: center;
+    width: 90%;
+    height: 10px;
+    background-color: #F9A11B;
+    margin: 0 auto 0 auto;
+    transition: 0.4s;
+  }
+
+  .nav_bar_2{
+    width: 80%;
+    height: 7px;
+    background-color: #F9A11B;
+    margin: 0 auto 0 auto;
+    transition: 0.4s;
+  }
+    /* End Footer */
+}
+
+@media screen and (max-width: 375px) {
+  /*iPhone 6/7/8*/
+}
+
+@media screen and (max-width: 320px) {
+  /*iPhone 5*/
+  .main_logo_container {
+    margin: 10px 0 0 19px;
+  }
+
 }
