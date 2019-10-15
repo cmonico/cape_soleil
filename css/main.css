@@ -91,7 +91,7 @@ body {
   width: 55%;
   height: auto;
   background-color: rgba(0, 167, 225, 0.6);
-  top: 55%;
+  top: 500px;
   font-family: 'Federo', sans-serif;
   color: #ffffff;
   font-size: 72px;
@@ -112,7 +112,7 @@ body {
   z-index: 2;
   width: auto;
   height: auto;
-  top: 85%;
+  top: 900px;
   left: 50%;
 }
 
@@ -122,6 +122,11 @@ body {
 }
 
 /* Index Body */
+
+.hidden-headers-main{
+  display: none;
+}
+
 .capeso-main-body{
   position: relative;
   width: 100%;
@@ -182,6 +187,7 @@ body {
   position: relative;
   width: 100%;
   height: 600px;
+
 }
 
 .warranty-text-body-container{
@@ -237,7 +243,7 @@ body {
     margin: 80px 0 80px 0;
 }
 
-.home-main-content p {
+.home-main-content p{
   font-size:17px;
   line-height:26px;
   font-family: 'Open Sans', sans-serif;
@@ -266,6 +272,57 @@ body {
   height: auto;
 }
 /* End Main Content */
+
+/* Collections Main Content */
+.body_header h2{
+  font-size: 60px;
+  color: #F9A11B;
+}
+
+.collection-container{
+  width: 391px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+  .collection-container a:link{
+    text-decoration: none;
+  }
+
+  .collection-container a:hover{
+    text-decoration: none;
+  }
+
+  .collection-images{
+    display: block;
+    width:391px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .collection-text-box{
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .collection-text-box p{
+    text-align: center;
+    font-size: 23px;
+    line-height: 28px;
+    color: #ffffff;
+    padding: 25px 0;
+  }
+/* Collection Main Content End */
 
 /* Footer */
 .footer-main{
@@ -358,8 +415,21 @@ hr.footer-hor-rule-small{
   color: #000000;
 }
 /* End Footer */
+
 @media screen and (max-width: 1770px){
-  .home-main-content p {
+  /* Hero */
+  .capeso-main-image-box{
+    top: 500px;
+  }
+
+  .heroskip-image{
+    top: 800px;
+    left: 50%;
+  }
+  /* Hero End */
+
+  /* Index Main Content */
+  .home-main-content p{
     font-size:17px;
     line-height:26px;
     font-family: 'Open Sans', sans-serif;
@@ -391,19 +461,11 @@ hr.footer-hor-rule-small{
   .warranty-text-body-container{
     left: 54%;
   }
-
-  .capeso-main-image-box{
-    top: 40%;
-  }
-
-  .heroskip-image{
-    top: 65%;
-    left: 50%;
-  }
+  /* Index Main Content End */
 }
 
-/* End Footer */
 @media screen and (max-width: 1670px){
+  /* Index Main Content */
   .home-main-content h1{
     font-size:25px;
     line-height: 40px;
@@ -415,19 +477,43 @@ hr.footer-hor-rule-small{
   .warranty-text-body-container{
     left: 52%;
   }
+
+  .capeso-main-image-box{
+    top: 400px;
+  }
+
+  .heroskip-image{
+    top: 700px;
+    left: 50%;
+  }
+  /* Index Main Content End */
+
+
+  /* Collections Main Content */
+  .collection-container{
+    width: 350px;
+  }
+    .collection-images{
+      width:350px;
+    }
+  /* Collection Main Content End */
 }
 
  @media screen and (max-width:1560px){
+   /* Hero */
+   .capeso-image-box{
+     font-size: 60px;
+     height: 37%;
+   }
+   /* Hero End */
+
+   /* Index Main Content */
    .capeso-main-body{
      height: 500px;
    }
 
    .capeso-image{
      height: 500px;
-   }
-   .capeso-image-box{
-     font-size: 60px;
-     height: 37%;
    }
 
    .capeso-text-body{
@@ -447,32 +533,144 @@ hr.footer-hor-rule-small{
      left: 48%;
      top: -35px;
    }
+
    .warranty-image-box{
      width: 55%;
      height: 26%;
      font-size: 40px;
      line-height: 50px;
    }
+   /* Index Main Content End */
+
+   /* Collections Main Content */
+   .collection-container{
+     width: 300px;
+   }
+
+     .collection-images{
+       width:300px;
+     }
+
+     .collection-text-box p{
+       font-size: 20px;
+       line-height: 25px;
+     }
+   /* Collection Main Content End */
+ }
+
+ @media screen and (max-width: 1480px) {
+   /* Hero */
+   .capeso-main-image-box{
+     top: 300px;
+   }
+   /* Hero End */
+
+   /* Index Main Content */
+   .warranty-main-body{
+     height: 500px;
+   }
+
+   .warranty-text-body-container{
+     position: absolute;
+     left: 57%;
+     height: 535px;
+     padding: 150px;
+   }
+
+   .heroskip-image{
+     top: 600px;
+     left: 50%;
+   }
+   /* Index Main Content End */
  }
 
 @media screen and (max-width: 1445px) {
-  .warranty-text-body-container{
-    left: 44%;
-  }
-}
-
-@media screen and (max-width: 1400px) {
+  /* Hero */
   .capeso-main-image-box{
-    top: 35%;
+    top: 300px;
   }
 
   .heroskip-image{
-    top: 60%;
+    top: 600px;
     left: 50%;
   }
+  /* Hero End */
+
+  /* Index Main Content */
+  .warranty-text-body-container{
+    left: 44%;
+  }
+  /* Index Main Content End */
 }
 
- @media screen and (max-width:1320px){
+@media screen and (max-width: 1400px) {
+  /* Hero */
+  .capeso-main-image-box{
+    top: 300px;
+  }
+
+  .heroskip-image{
+    top: 600px;
+    left: 50%;
+  }
+  /* Hero End */
+}
+
+  @media screen and (max-width: 1350px) {
+    /* Collections Main Content */
+    .body_header h2{
+      font-size: 50px;
+      color: #F9A11B;
+    }
+
+    .collection-container{
+      width: 250px;
+      height: auto;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+
+      .collection-container a:link{
+        text-decoration: none;
+      }
+
+      .collection-container a:hover{
+        text-decoration: none;
+      }
+
+      .collection-images{
+        display: block;
+        width: 250px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .collection-text-box{
+        position: relative;
+        z-index: 2;
+        width: 80%;
+        height: 80px;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-top: -60px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .collection-text-box p{
+        text-align: center;
+        font-size: 23px;
+        line-height: 28px;
+        color: #ffffff;
+        padding: 25px 0;
+      }
+    /* Collection Main Content End */
+  }
+
+  @media screen and (max-width:1320px){
+   /* Index Main Content */
    .capeso-main-body{
      height: 450px;
    }
@@ -496,6 +694,10 @@ hr.footer-hor-rule-small{
      line-height: 30px;
    }
 
+   .warranty-main-body{
+     height: 450px;
+   }
+
    .warranty-image{
      height: 450px;
    }
@@ -513,14 +715,16 @@ hr.footer-hor-rule-small{
      font-size: 42px;
      line-height: 50px;
    }
+   /* Index Main Content End */
  }
 
 @media screen and (max-width: 1280px) {
+  /* Hero */
   .capeso-main-image-box{
     width: 45%;
     height: auto;
     background-color: rgba(0, 167, 225, 0.6);
-    top: 30%;
+    top: 250px;
     font-family: 'Federo', sans-serif;
     color: #ffffff;
     font-size:60px;
@@ -537,16 +741,18 @@ hr.footer-hor-rule-small{
   }
 
   .heroskip-image{
-    top: 52%;
+    top: 500px;
   }
 
   .heroskip-image img{
-    width: 100px;
+    width: 70px;
     height: auto;
   }
+  /* Hero End */
 }
 
 @media screen and (max-width: 1150px){
+  /* Nav */
   .main_nav_text{
    font-size: 17px;
   }
@@ -565,12 +771,14 @@ hr.footer-hor-rule-small{
   .main_logo_container {
     margin: -125px auto 0 auto;
   }
+  /* Nav End */
 
+  /* Hero */
   .capeso-main-image-box{
     width: 45%;
     height: auto;
     background-color: rgba(0, 167, 225, 0.6);
-    top: 20%;
+    top: 250px;
     font-family: 'Federo', sans-serif;
     color: #ffffff;
     font-size: 50px;
@@ -587,14 +795,16 @@ hr.footer-hor-rule-small{
   }
 
   .heroskip-image{
-    top: 35%;
+    top: 500px;
   }
 
   .heroskip-image img{
     width: 75px;
     height: auto;
   }
+  /* Hero End */
 
+/* Main Content */
   .capeso-main-body{
     height: 450px;
   }
@@ -618,6 +828,10 @@ hr.footer-hor-rule-small{
     padding: 25px 35px 15px 30px;
   }
 
+  .warranty-main-body{
+   height: 475px;
+  }
+
   .warranty-image{
     width: 70%;
     height: 450px;
@@ -629,36 +843,81 @@ hr.footer-hor-rule-small{
     width: 400px;
     padding: 25px 35px 15px 30px;
   }
+  /* Index Main Content End */
+
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 43px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 225px;
+  }
+
+    .collection-images{
+      width: 225px;
+    }
+
+    .collection-text-box p{
+      font-size: 17px;
+      line-height: 22px;
+    }
+  /* Collection Main Content End */
+
+}
+
+@media screen and (max-width: 1000px) {
+  /* Hero */
+  .capeso-main-image-box{
+    top: 250px;
+  }
+
+  .heroskip-image{
+    top: 425px;
+  }
+  /* Hero End */
+
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 60px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 200px;
+  }
+
+    .collection-images{
+      width: 200px;
+    }
+
+    .collection-text-box{
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      height: 80px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: -60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box p{
+      text-align: center;
+      font-size: 16px;
+      line-height: 21px;
+      color: #ffffff;
+      padding: 25px 0;
+    }
+  /* Collection Main Content End */
+
 }
 
 @media screen and (max-width: 991px) {
-  .capeso-text-body{
-    top: 35px;
-    width: 400px;
-    margin-left: 0px;
-    padding: 25px 35px 15px 30px;
-  }
-
-  .warranty-text-body-container{
-    position: absolute;
-    top: -50px;
-    left: 26%;
-  }
-
-  .footer-logo{
-    width: 70%;
-    height: auto;
-    margin: 30px 0 10px 0;
-  }
-  .footer-text-copyright{
-    position: relative;
-    margin: 0px 0px 60px 0px;
-    font-size: 13px;
-    text-align: left;
-    line-height: 25px;
-    color: #000000;
-  }
-
+  /* Main Content */
   .home-main-content h1{
     font-size: 30px;
     line-height: 40px;
@@ -677,6 +936,10 @@ hr.footer-hor-rule-small{
     margin-bottom: 80px;
   }
 
+  .warranty-main-body{
+   height: 500px;
+  }
+
   .warranty-image{
     width: 70%;
     height: 450px;
@@ -690,7 +953,7 @@ hr.footer-hor-rule-small{
   }
 
   .warranty-text-body{
-    top: 35px;
+    top: 20px;
     width: 400px;
     margin-left: 0px;
     padding: 25px 35px 15px 30px;
@@ -699,20 +962,93 @@ hr.footer-hor-rule-small{
   .warranty-image-box{
     width: 60%;
   }
+
+  .capeso-text-body{
+    top: 35px;
+    width: 400px;
+    margin-left: 0px;
+    padding: 25px 35px 15px 30px;
+  }
+
+  .warranty-text-body-container{
+    position: absolute;
+    top: -50px;
+    left: 26%;
+  }
+  /* Main Content End */
+
+  /* Footer Content */
+  .footer-logo{
+    width: 70%;
+    height: auto;
+    margin: 30px 0 10px 0;
+  }
+  .footer-text-copyright{
+    position: relative;
+    margin: 0px 0px 60px 0px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 25px;
+    color: #000000;
+  }
+  /* Footer Content END */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 60px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 350px;
+  }
+
+    .collection-images{
+      display: block;
+      width:350px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box p{
+      text-align: center;
+      font-size: 23px;
+      line-height: 28px;
+      color: #ffffff;
+      padding: 25px 0;
+    }
+  /* Collection Main Content End */
+
+}
+
+@media screen and (max-width: 880px)  {
+  /* Hero */
+  .capeso-main-image-box{
+    top: 200px;
+  }
+
+  .heroskip-image{
+    top: 350px;
+  }
+  /* Hero End */
 }
 
 @media screen and (max-width: 800px) {
+  /* nav */
   /* Positions nav text in from sides, removes padding, removes list bullets. */
   .main_nav_text ul {
    margin-left: 20px;
    margin-right: 20px;
   }
+  /* Nav End */
 
+  /* Hero */
   .capeso-main-image-box{
     width: 45%;
     height: auto;
     background-color: rgba(0, 167, 225, 0.6);
-    top: 15%;
+    top: 200px;
     font-family: 'Federo', sans-serif;
     color: #ffffff;
     font-size: 45px;
@@ -729,14 +1065,16 @@ hr.footer-hor-rule-small{
   }
 
   .heroskip-image{
-    top: 30%;
+    top: 350px;
   }
 
   .heroskip-image img{
     width: 75px;
     height: auto;
   }
+  /* Hero End */
 
+  /* Main Content */
   .capeso-main-body{
     height: 375px;
   }
@@ -766,6 +1104,10 @@ hr.footer-hor-rule-small{
     padding: 25px 35px 15px 30px;
   }
 
+  .warranty-main-body{
+   height: 380px;
+  }
+
   .warranty-image{
     width: 70%;
     height: 375px;
@@ -793,10 +1135,144 @@ hr.footer-hor-rule-small{
     font-size: 30px;
     line-height: 40px;
   }
+  /* Main Content End */
+
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 30px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 300px;
+  }
+
+    .collection-images{
+      width:300px;
+    }
+
+    .collection-text-box p{
+      font-size: 21px;
+      line-height: 25px;
+    }
+  /* Collection Main Content End */
+
 }
 
 @media screen and (max-width: 768px) {
 /* Ipad */
+/* nav */
+.main-nav-front{
+  display: none;
+}
+
+.main-logo{
+  width: 180px;
+  height: auto;
+}
+
+.main_nav_phone{
+  display: block;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height:auto;
+  background-color: transparent;
+}
+
+.main_nav_phone_toggle{
+  background-color: #00A7E1;
+}
+
+.logo_menu{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.main_logo_container {
+  display: flex;
+  width:70%;
+  height:auto;
+  margin: 15px 0 0 50px;
+  justify-content: flex-start;
+}
+
+.hamburger_menu{
+  display: relative;
+  width: auto;
+  height: 35px;
+  margin: 40px auto 0 auto;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.mobile_nav_text{
+  display: none;
+  width:100%;
+  height: 100vh;
+  background-color: #00A7E1;
+  text-align: center;
+}
+
+  .mobile_nav_text a{
+    color: #ffffff;
+    font-size: 36px;
+    text-decoration: none;
+  }
+
+  .mobile_nav_text ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile_nav_text li{
+      margin: 10px auto 10px auto;
+  }
+
+    #home_padding{
+      padding-top: 10px;
+    }
+
+    #nav_text_small a{
+      font-size: 24px;
+
+    }
+
+.nav_bar{
+  align-items: center;
+  width: 90%;
+  height: 10px;
+  background-color: #F9A11B;
+  margin: 0 auto 0 auto;
+  transition: 0.4s;
+}
+
+.nav_bar_2{
+  width: 80%;
+  height: 7px;
+  background-color: #F9A11B;
+  margin: 0 auto 0 auto;
+  transition: 0.4s;
+}
+/* Nav End */
+
+/* Hero */
+  .capeso-main-image-box{
+    top: 150px;
+  }
+/* Hero End */
+
+/* Main Content */
   .capeso-main-body{
     height: 460px;
   }
@@ -830,7 +1306,7 @@ hr.footer-hor-rule-small{
     display: none;
   }
 
-  .home-main-content p {
+  .home-main-content p{
     font-size: 17px;
     line-height: 26px;
     font-family: 'Open Sans', sans-serif;
@@ -856,9 +1332,11 @@ hr.footer-hor-rule-small{
     width: 70%;
     height: 375px;
   }
+  /* Main Content End */
 }
 
 @media screen and (max-width: 730px) {
+  /* Nav */
   .main-nav-front{
     display: none;
   }
@@ -943,6 +1421,7 @@ hr.footer-hor-rule-small{
         font-size: 24px;
 
       }
+
   .nav_bar{
     align-items: center;
     width: 90%;
@@ -959,7 +1438,9 @@ hr.footer-hor-rule-small{
     margin: 0 auto 0 auto;
     transition: 0.4s;
   }
+  /* Nav End */
 
+  /* Main Content */
   .capeso-main-body{
     height: 460px;
   }
@@ -993,18 +1474,35 @@ hr.footer-hor-rule-small{
     width: 70%;
     height: 375px;
   }
+  /* Main Content End */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 25px;
+  }
+
+  .collection-container{
+    width: 275px;
+  }
+
+    .collection-images{
+      width:275px;
+    }
+
+    .collection-text-box p{
+      font-size: 21px;
+      line-height: 25px;
+    }
+  /* Collection Main Content End */
 }
 
 @media screen and (max-width: 650px){
-  .capeso-main-body{
-    height: auto;
-  }
-
+  /* Hero */
   .capeso-main-image-box{
     width: 55%;
     height: auto;
     background-color: rgba(0, 167, 225, 0.6);
-    top: 15%;
+    top: 150px;
     font-family: 'Federo', sans-serif;
     color: #ffffff;
     font-size: 45px;
@@ -1019,6 +1517,12 @@ hr.footer-hor-rule-small{
     padding: 15px 25px 15px 15px;
     text-align: right;
   }
+  /* Hero End */
+
+  /* Main Content */
+  .capeso-main-body{
+    height: 365px;
+  }
 
   .capeso-image{
     display: none;
@@ -1028,8 +1532,17 @@ hr.footer-hor-rule-small{
     display: none;
   }
 
+  .hidden-headers-main {
+    display: block;
+    font-size:30px;
+    line-height:46px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-weight:700;
+  }
+
   .capeso-text-body-container{
-    position:relative;
+    position: relative;
     z-index: 0;
     width: 100%;
     height: auto;
@@ -1051,10 +1564,6 @@ hr.footer-hor-rule-small{
     display: none;
   }
 
-  .warranty-main-body{
-    height: 300px;
-  }
-
   .warranty-text-body-container{
     width: 100%;
     height: auto;
@@ -1065,18 +1574,54 @@ hr.footer-hor-rule-small{
     width: 100%;
     height: auto;
   }
+
+  .warranty-main-body{
+    position: relative;
+    z-index: 0;
+    height: 330px;
+  }
+
+  .warranty-text-body {
+    position: relative;
+    z-index: 0;
+    padding: 25px 40px 15px 40px;
+  }
+  /* Main Content End */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 22px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 250px;
+  }
+
+    .collection-images{
+      width: 250px;
+    }
+
+    .collection-text-box p{
+      font-size: 18px;
+      line-height: 23px;
+    }
+  /* Collection Main Content End */
 }
 
 @media screen and (max-width: 600px){
+  /* Nav */
   .main_logo_container {
     margin: 15px 0 0 45px;
   }
+  /* Nav End */
 
+  /* Hero End */
   .capeso-main-image-box{
     width: 55%;
     height: auto;
     background-color: rgba(0, 167, 225, 0.6);
-    top: 13%;
+    top: 160px;
     font-family: 'Federo', sans-serif;
     color: #ffffff;
     font-size: 30px;
@@ -1091,6 +1636,12 @@ hr.footer-hor-rule-small{
     padding: 10px 20px 10px 10px;
     text-align: right;
   }
+  /* Hero End */
+
+  /* Main Content */
+  .capeso-main-body{
+    height: 365px;
+  }
 
   .capeso-image{
     display: none;
@@ -1100,20 +1651,20 @@ hr.footer-hor-rule-small{
     display: none;
   }
 
-  .warranty-main-body{
-    height: 370px;
-  }
-
   .warranty-text-body-container{
     width: 100%;
     height: auto;
     left: 0;
   }
 
-  .warranty-text-body{
-    width: 100%;
-    height: auto;
+  .warranty-main-body{
+    height: 360px;
   }
+
+  .warranty-text-body {
+    padding: 25px 35px 15px 35px;
+  }
+  /* Main Content End */
 
   /* Footer */
   .footer-text-main{
@@ -1161,18 +1712,183 @@ hr.footer-hor-rule-small{
     line-height: 25px;
     color: #000000;
   }
+  /* Footer End */
+}
+
+@media screen and (max-width: 575px) {
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 20px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 391px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+    .collection-container a:link{
+      text-decoration: none;
+    }
+
+    .collection-container a:hover{
+      text-decoration: none;
+    }
+
+    .collection-images{
+      display: block;
+      width:391px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box{
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      height: 80px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: -60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box p{
+      text-align: center;
+      font-size: 23px;
+      line-height: 28px;
+      color: #ffffff;
+      padding: 25px 0;
+    }
+  /* Collection Main Content End */
+
+}
+
+@media screen and (max-width: 555px) {
+  /* Main Content */
+  .capeso-main-body{
+    height: 385px;
+  }
+
+  .capeso-text-body{
+    padding: 25px 55px 15px 55px;
+  }
+
+  .hidden-headers-main {
+    display: block;
+    font-size: 20px;
+    line-height:46px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-weight:700;
+  }
+
+  .warranty-main-body{
+    height: 380px;
+  }
+
+  .warranty-text-body {
+    padding: 25px 30px 15px 30px;
+  }
+  /* Main Content End */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 20px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 350px;
+  }
+
+    .collection-images{
+      width:350px;
+    }
+
+    .collection-text-box p{
+      font-size: 23px;
+      line-height: 28px;
+    }
+  /* Collection Main Content End */
+}
+
+@media screen and (max-width: 480px) {
+  /* Main Content */
+  .capeso-main-body{
+    height: 425px;
+  }
+  .capeso-text-body{
+    padding: 25px 52px 15px 52px;
+  }
+
+  .warranty-main-body{
+    height: 440px;
+  }
+
+  .warranty-text-body {
+    padding: 25px 23px 15px 23px;
+  }
+  /* Main Content End */
 }
 
 @media screen and (max-width: 450px) {
-  .hamburger_menu{
-    margin: 30px auto 0 auto;
+  /* Hero */
+    .capeso-main-image-box{
+      top: 130px;
+    }
+  /* Hero End */
+
+  /* Main Content */
+  .capeso-main-body{
+    height: 475px;
   }
+  .capeso-text-body{
+    padding: 25px 50px 15px 50px;
+  }
+
+  .warranty-main-body{
+    height: 450px;
+  }
+
+  .warranty-text-body {
+    padding: 25px 20px 15px 20px;
+  }
+  /* Main Content End */
+
+
+    /* Collections Main Content */
+    .body_header h2{
+      font-size: 20px;
+      color: #F9A11B;
+    }
+
+    .collection-container{
+      width: 300px;
+    }
+
+      .collection-images{
+        width: 300px;
+      }
+
+      .collection-text-box p{
+        font-size: 22px;
+        line-height: 27px;
+      }
+    /* Collection Main Content End */
 }
 
 @media screen and (max-width: 414px) {
-    /* Iphone 8 Plus */
+  /* Iphone 8 Plus */
+  /* Nav */
   .main_logo_container {
-    width: 70%;
+    width: 60%;
     margin: 15px 0 0 30px;
   }
 
@@ -1260,6 +1976,7 @@ hr.footer-hor-rule-small{
         font-size: 24px;
 
       }
+
   .nav_bar{
     align-items: center;
     width: 90%;
@@ -1276,53 +1993,510 @@ hr.footer-hor-rule-small{
     margin: 0 auto 0 auto;
     transition: 0.4s;
   }
+  /* Nav End */
 
+  /* Hero  */
+  .capeso-main-image-box{
+    top: 100px;
+  }
+  /* Hero End */
 
-    .capeso-main-body{
-      height: 500px;
+  /* Main Content */
+  .capeso-main-body{
+    height: 490px;
+  }
+
+  .capeso-text-body-container{
+    position:relative;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .capeso-text-body{
+    top: 35px;
+    width: 100%;
+    height: auto;
+    padding: 25px 50px 15px 50px;
+    background-color: transparent;
+  }
+
+  .warranty-text-body-container{
+    width: 100%;
+    height: auto;
+    left: 0;
+  }
+
+  .warranty-main-body{
+    height: 450px;
+  }
+
+  .warranty-text-body {
+    padding: 25px 17px 15px 17px;
+  }
+  /* Main Content End */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 20px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+    .collection-images{
+      width:300px;
     }
 
-    .capeso-text-body-container{
-      position:relative;
-      z-index: 0;
-      width: 100%;
-      height: auto;
+    .collection-text-box p{
+      text-align: center;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  /* Collection Main Content End */
+}
+
+@media screen and (max-width: 400px){
+  /* Main Content */
+  .capeso-main-body{
+    height: 500px;
+  }
+  .capeso-text-body{
+    padding: 25px 50px 15px 50px;
+  }
+
+  .warranty-main-body{
+    height: 480px;
+  }
+
+  .warranty-text-body {
+    padding: 25px 12px 15px 12px;
+  }
+  /* Main Content End */
+
+    /* Collections Main Content */
+    .body_header h2{
+      font-size: 18px;
+      color: #F9A11B;
     }
 
-    .capeso-text-body{
-      top: 35px;
-      width: 100%;
-      height: auto;
-      padding: 25px 65px 15px 65px;
-      background-color: transparent;
+    .collection-container{
+      width: 280px;
     }
 
+      .collection-images{
+        width: 280px;
+      }
 
-    .warranty-main-body{
-      height: 470px;
-    }
-
-    .warranty-text-body-container{
-      width: 100%;
-      height: auto;
-      left: 0;
-    }
-
-    .warranty-text-body{
-      width: 100%;
-      height: auto;
-    }
-
+      .collection-text-box p{
+        font-size: 20px;
+        line-height: 25px;
+      }
+    /* Collection Main Content End */
 }
 
 @media screen and (max-width: 375px) {
   /*iPhone 6/7/8*/
+  /* Main Content */
+  .capeso-main-body{
+    height: 525px;
+  }
+
+  .capeso-text-body{
+    top: 35px;
+    width: 100%;
+    height: auto;
+    padding: 25px 45px 15px 45px;
+    background-color: transparent;
+  }
+
+  .hidden-headers-main{
+    font-size: 17px;
+  }
+
+  .warranty-main-body{
+    height: 520px;
+  }
+
+  .warranty-text-body {
+    padding: 25px 12px 15px 12px;
+  }
+  /* Main Content End */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 18px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 250px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+    .collection-container a:link{
+      text-decoration: none;
+    }
+
+    .collection-container a:hover{
+      text-decoration: none;
+    }
+
+    .collection-images{
+      display: block;
+      width: 250px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box{
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      height: 80px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: -60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box p{
+      text-align: center;
+      font-size: 23px;
+      line-height: 28px;
+      color: #ffffff;
+      padding: 25px 0;
+    }
+  /* Collection Main Content End */
+}
+
+@media screen and (max-width: 350px) {
+  /* Nav */
+  .capeso-main-image-box{
+    top: 90px;
+    font-size: 25px;
+  }
+  /* Nav End */
+
+  /* Main Content */
+  .capeso-main-body{
+    height: 550px;
+  }
+
+  .capeso-text-body{
+    top: 35px;
+    width: 100%;
+    height: auto;
+    padding: 25px 45px 15px 45px;
+    background-color: transparent;
+  }
+
+  .hidden-headers-main{
+    font-size: 17px;
+  }
+
+  .warranty-main-body{
+    height: 540px;
+  }
+
+  .warranty-text-body {
+    padding: 25px 10px 15px 10px;
+  }
+  /* Main Content End */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 15px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+    .collection-container a:link{
+      text-decoration: none;
+    }
+
+    .collection-container a:hover{
+      text-decoration: none;
+    }
+
+    .collection-images{
+      display: block;
+      width: 200px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box{
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: -50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box p{
+      text-align: center;
+      font-size: 15px;
+      line-height: 20px;
+      color: #ffffff;
+      padding: 20px 0;
+    }
+  /* Collection Main Content End */
 }
 
 @media screen and (max-width: 320px) {
   /*iPhone 5*/
+  /* Nav */
   .main_logo_container {
     margin: 10px 0 0 19px;
   }
+  /* Main Content End */
 
+  /* Hero */
+  .capeso-main-image-box{
+    top: 90px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  /* Hero End */
+
+  /* Main Content */
+  .capeso-main-body{
+    height: 600px;
+  }
+
+  .capeso-text-body{
+    top: 35px;
+    width: 100%;
+    height: auto;
+    padding: 25px 45px 15px 45px;
+  }
+
+  .hidden-headers-main{
+    font-size: 17px;
+  }
+
+  .warranty-main-body{
+    height: 590px;
+  }
+  /* Main Content End */
+
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 15px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 175px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+    .collection-container a:link{
+      text-decoration: none;
+    }
+
+    .collection-container a:hover{
+      text-decoration: none;
+    }
+
+    .collection-images{
+      display: block;
+      width: 175px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box{
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: -50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box p{
+      text-align: center;
+      font-size: 15px;
+      line-height: 20px;
+      color: #ffffff;
+      padding: 20px 0;
+    }
+  /* Collection Main Content End */
+}
+
+@media screen and (max-width: 310px) {
+  /* Main Content */
+  .capeso-main-body{
+    height: 670px;
+  }
+
+  .capeso-text-body{
+    top: 35px;
+    width: 100%;
+    height: auto;
+    padding: 25px 40px 15px 40px;
+    background-color: transparent;
+  }
+
+  .hidden-headers-main{
+    font-size: 17px;
+  }
+
+  .warranty-main-body{
+    height: 640px;
+  }
+
+  .warranty-text-body {
+    padding: 25px 11px 15px 11px;
+  }
+  /* Main Content End */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 15px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 175px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+    .collection-container a:link{
+      text-decoration: none;
+    }
+
+    .collection-container a:hover{
+      text-decoration: none;
+    }
+
+    .collection-images{
+      display: block;
+      width: 175px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box{
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: -50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box p{
+      text-align: center;
+      font-size: 15px;
+      line-height: 20px;
+      color: #ffffff;
+      padding: 20px 0;
+    }
+  /* Collection Main Content End */
+}
+
+@media screen and (max-width: 290px) {
+  /*iPhone 6/7/8*/
+  /* Hero */
+  .capeso-main-image-box{
+    top: 80px;
+  }
+  /* Main Content */
+  .warranty-main-body{
+   height: 775px;
+  }
+  /* Main Content End */
+
+  /* Collections Main Content */
+  .body_header h2{
+    font-size: 14px;
+    color: #F9A11B;
+  }
+
+  .collection-container{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+    .collection-container a:link{
+      text-decoration: none;
+    }
+
+    .collection-container a:hover{
+      text-decoration: none;
+    }
+
+    .collection-images{
+      display: block;
+      width: 150px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box{
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: -50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .collection-text-box p{
+      text-align: center;
+      font-size: 13px;
+      line-height: 15px;
+      color: #ffffff;
+      padding: 18px 0;
+    }
+  /* Collection Main Content End */
 }
