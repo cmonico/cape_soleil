@@ -425,6 +425,137 @@ body {
 }
 /* Dealer Locator End */
 
+/* Contact */
+.contact-forum-container form{
+  width: 100%;
+  height: auto;
+}
+
+.first-last-container{
+      display: flex;
+      width: 100%;
+}
+
+  .first-name-form {
+    width: 100%;
+    height: auto;
+  }
+    .first-name-form input[type=text] {
+      border: 5px solid #F9A11B;
+      font-size: 17px;
+      width: 98%;
+      height: 60px;
+      display: block;
+      margin-right:auto;
+      padding: 10px;
+    }
+
+  .last-name-form{
+    width: 100%;
+    height: auto;
+  }
+    .last-name-form input[type=text] {
+      border: 5px solid #F9A11B;
+      font-size: 17px;
+      width: 98%;
+      height: 60px;
+      display: block;
+      margin-left:auto;
+      padding: 10px;
+    }
+
+  .email-form input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .subject-form input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .message-form textarea {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+  }
+
+.contact-forum-container ::placeholder {
+ padding-left: 10px;
+}
+
+.submit-button button{
+  position: relative;
+  background-color: #F9A11B;
+  border: none;
+  width: 150px;
+  height: 50px;
+  color: #ffffff;
+}
+
+.hor-rule-2{
+  width: 98%;
+  height: 7px;
+  background-color: #F9A11B;
+  margin: 0 0 15px 0;
+}
+
+.results-container h3{
+  color: #F9A11B;
+  font-family: 'Federo', sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 20px 0 10px 0;
+}
+
+.results-container h4{
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 10px;
+  margin: 25px 0 0px 0;
+}
+
+
+.results-container p{
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 20px 0 25px 0;
+}
+
+.results-container a:link{
+  color: #00A7E1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 20px 0 25px 0;
+  text-decoration: none;
+}
+
+.results-container a:hover{
+  color: #F9A11B;
+  text-decoration: none;
+}
+
+.hor-rule-3{
+  width: 98%;
+  height: 3px;
+  background-color: #F9A11B;
+  margin: 0 0 15px 0;
+}
+/* Contact End */
+
 /* Footer */
 .footer-main{
   padding: 35px;
