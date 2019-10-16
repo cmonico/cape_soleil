@@ -273,10 +273,15 @@ body {
 }
 /* End Main Content */
 
-/* Collections Main Content */
+/* Collection Main Content */
+.body_header{
+  margin: 50px 0 0 0;
+}
+
 .body_header h2{
   font-size: 60px;
   color: #F9A11B;
+  font-family: 'Federo', sans-serif;
 }
 
 .collection-container{
@@ -322,7 +327,103 @@ body {
     color: #ffffff;
     padding: 25px 0;
   }
+
+  .collection-text-box-double p{
+    padding: 15px 0;
+  }
+
+  .fabrics-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 /* Collection Main Content End */
+
+/* Dealer Locator */
+.dealer-locator-search form{
+  width: 100%;
+  height: 60px;
+}
+
+.dealer-locator-search input[type=text] {
+  border: 5px solid #F9A11B;
+  font-size: 17px;
+  height: 50px;
+  width: 80%;
+}
+.dealer-locator-search ::placeholder {
+ padding-left: 10px;
+}
+
+.dealer-locator-search button{
+  position: relative;
+  top: -3px;
+  left: -5px;
+  background-color: #F9A11B;
+  border: none;
+  width: 70px;
+  height: 50px;
+}
+  .search_button_image{
+    width: 30px;
+    height:auto;
+  }
+
+.hor-rule-2{
+  width: 98%;
+  height: 7px;
+  background-color: #F9A11B;
+  margin: 0 0 15px 0;
+}
+
+.results-container h3{
+  color: #F9A11B;
+  font-family: 'Federo', sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 20px 0 10px 0;
+}
+
+.results-container h4{
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 10px;
+  margin: 25px 0 0px 0;
+}
+
+
+.results-container p{
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 20px 0 25px 0;
+}
+
+.results-container a:link{
+  color: #00A7E1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 20px 0 25px 0;
+  text-decoration: none;
+}
+
+.results-container a:hover{
+  color: #F9A11B;
+  text-decoration: none;
+}
+
+.hor-rule-3{
+  width: 98%;
+  height: 3px;
+  background-color: #F9A11B;
+  margin: 0 0 15px 0;
+}
+/* Dealer Locator End */
 
 /* Footer */
 .footer-main{
@@ -489,7 +590,7 @@ hr.footer-hor-rule-small{
   /* Index Main Content End */
 
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .collection-container{
     width: 350px;
   }
@@ -497,6 +598,17 @@ hr.footer-hor-rule-small{
       width:350px;
     }
   /* Collection Main Content End */
+
+
+  /* Dealer Locator */
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 70%;
+  }
+  /* Dealer Locator End */
+
 }
 
  @media screen and (max-width:1560px){
@@ -542,7 +654,7 @@ hr.footer-hor-rule-small{
    }
    /* Index Main Content End */
 
-   /* Collections Main Content */
+   /* Collection Main Content */
    .collection-container{
      width: 300px;
    }
@@ -617,7 +729,7 @@ hr.footer-hor-rule-small{
 }
 
   @media screen and (max-width: 1350px) {
-    /* Collections Main Content */
+    /* Collection Main Content */
     .body_header h2{
       font-size: 50px;
       color: #F9A11B;
@@ -661,12 +773,61 @@ hr.footer-hor-rule-small{
 
       .collection-text-box p{
         text-align: center;
-        font-size: 23px;
-        line-height: 28px;
+        font-size: 19px;
+        line-height: 24px;
         color: #ffffff;
         padding: 25px 0;
       }
+
+      .collection-text-box-double p{
+        padding: 15px 0;
+      }
     /* Collection Main Content End */
+
+
+    /* Dealer Locator */
+    .dealer-locator-search input[type=text] {
+      width: 60%;
+    }
+
+    .dealer-locator-search button{
+      top: -2px;
+      left: -5px;
+      width: 60px;
+    }
+      .search_button_image{
+        width: 25px;
+      }
+
+    .results-container h3{
+      font-size: 30px;
+    }
+
+    .results-container h4{
+      font-size: 22px;
+      margin: 25px 0 -07px 0;
+    }
+
+    .results-container p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      line-height: 26px;
+      margin: 20px 0 25px 0;
+    }
+
+    .results-container a:link{
+      font-size: 18px;
+      line-height: 26px;
+      text-decoration: none;
+    }
+
+    .results-container a:hover{
+      color: #F9A11B;
+      text-decoration: none;
+    }
+    /* Dealer Locator End */
+
   }
 
   @media screen and (max-width:1320px){
@@ -749,6 +910,162 @@ hr.footer-hor-rule-small{
     height: auto;
   }
   /* Hero End */
+
+  /* Dealer Locator */
+  .dealer-locator-search form{
+    width: 100%;
+    height: 60px;
+  }
+
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 60%;
+  }
+  .dealer-locator-search ::placeholder {
+   padding-left: 10px;
+  }
+
+  .dealer-locator-search button{
+    position: relative;
+    top: -2px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 60px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 25px;
+      height:auto;
+    }
+
+  .results-container h3{
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 20px 0 10px 0;
+  }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 25px 0 -07px 0;
+  }
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+
+  .results-container a:hover{
+    color: #F9A11B;
+    text-decoration: none;
+  }
+  /* Dealer Locator End */
+}
+
+@media screen and (max-width: 1200px){
+
+  /* Dealer Locator */
+  .dealer-locator-search form{
+    width: 100%;
+    height: 60px;
+  }
+
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 60%;
+  }
+  .dealer-locator-search ::placeholder {
+   padding-left: 10px;
+  }
+
+  .dealer-locator-search button{
+    position: relative;
+    top: 0px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 60px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 20px;
+      height:auto;
+    }
+
+  .hor-rule-2{
+    width: 98%;
+    height: 7px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+
+  .results-container h3{
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 20px 0 10px 0;
+  }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 25px 0 0px 0;
+  }
+
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    color: #00A7E1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0 25px 0;
+    text-decoration: none;
+  }
+
+  .results-container a:hover{
+    color: #F9A11B;
+    text-decoration: none;
+  }
+
+  .hor-rule-3{
+    width: 98%;
+    height: 3px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+  /* Dealer Locator End */
+
 }
 
 @media screen and (max-width: 1150px){
@@ -846,7 +1163,7 @@ hr.footer-hor-rule-small{
   /* Index Main Content End */
 
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 43px;
     color: #F9A11B;
@@ -866,6 +1183,91 @@ hr.footer-hor-rule-small{
     }
   /* Collection Main Content End */
 
+  /* Dealer Locator */
+  .dealer-locator-search form{
+    width: 100%;
+    height: 60px;
+  }
+
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 60%;
+  }
+  .dealer-locator-search ::placeholder {
+   padding-left: 10px;
+  }
+
+  .dealer-locator-search button{
+    position: relative;
+    top: 0px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 60px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 20px;
+      height:auto;
+    }
+
+  .hor-rule-2{
+    width: 98%;
+    height: 7px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+
+  .results-container h3{
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 20px 0 10px 0;
+  }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 25px 0 0px 0;
+  }
+
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    color: #00A7E1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0 25px 0;
+    text-decoration: none;
+  }
+
+  .results-container a:hover{
+    color: #F9A11B;
+    text-decoration: none;
+  }
+
+  .hor-rule-3{
+    width: 98%;
+    height: 3px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+  /* Dealer Locator End */
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -879,10 +1281,16 @@ hr.footer-hor-rule-small{
   }
   /* Hero End */
 
+  /* Collection Main Content */
+  .hor-rule{
+    width: 90%;
+    height: 10px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
 
-  /* Collections Main Content */
   .body_header h2{
-    font-size: 60px;
+    font-size: 45px;
     color: #F9A11B;
   }
 
@@ -912,12 +1320,106 @@ hr.footer-hor-rule-small{
       color: #ffffff;
       padding: 25px 0;
     }
+    .collection-text-box-double p{
+      padding: 20px 0;
+    }
   /* Collection Main Content End */
 
+  /* Dealer Locator */
+  .dealer-locator-search form{
+    width: 100%;
+    height: 60px;
+  }
+
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 60%;
+  }
+  .dealer-locator-search ::placeholder {
+   padding-left: 10px;
+  }
+
+  .dealer-locator-search button{
+    position: relative;
+    top: 0px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 60px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 20px;
+      height:auto;
+    }
+
+  .hor-rule-2{
+    width: 98%;
+    height: 7px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+
+  .results-container h3{
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 20px 0 10px 0;
+  }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 25px 0 -5px 0;
+  }
+
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    color: #00A7E1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px 0 25px 0;
+    text-decoration: none;
+  }
+
+  .results-container a:hover{
+    color: #F9A11B;
+    text-decoration: none;
+  }
+
+  .hor-rule-3{
+    width: 98%;
+    height: 3px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+  /* Dealer Locator End */
 }
 
 @media screen and (max-width: 991px) {
   /* Main Content */
+  .hor-rule{
+    width: 98%;
+    height: 10px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+
   .home-main-content h1{
     font-size: 30px;
     line-height: 40px;
@@ -972,8 +1474,8 @@ hr.footer-hor-rule-small{
 
   .warranty-text-body-container{
     position: absolute;
-    top: -50px;
-    left: 26%;
+    top: -20px;
+    left: 55%;
   }
   /* Main Content End */
 
@@ -993,9 +1495,9 @@ hr.footer-hor-rule-small{
   }
   /* Footer Content END */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
-    font-size: 60px;
+    font-size: 45px;
     color: #F9A11B;
   }
 
@@ -1018,8 +1520,80 @@ hr.footer-hor-rule-small{
       color: #ffffff;
       padding: 25px 0;
     }
+    .collection-text-box-double p{
+      padding: 13px 0;
+    }
   /* Collection Main Content End */
 
+  /* Dealer Locator */
+  .dealer-locator-search form{
+    width: 100%;
+    height: 60px;
+  }
+
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 60%;
+  }
+  .dealer-locator-search ::placeholder {
+   padding-left: 10px;
+  }
+
+  .dealer-locator-search button{
+    position: relative;
+    top: 0px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 60px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 20px;
+      height:auto;
+    }
+
+  .results-container h3{
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 20px 0 10px 0;
+  }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 25px 0 -10px 0;
+  }
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    color: #00A7E1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px 0 25px 0;
+    text-decoration: none;
+  }
+
+  .results-container a:hover{
+    color: #F9A11B;
+    text-decoration: none;
+  }
+  /* Dealer Locator End */
 }
 
 @media screen and (max-width: 880px)  {
@@ -1032,6 +1606,20 @@ hr.footer-hor-rule-small{
     top: 350px;
   }
   /* Hero End */
+
+  /* Collection Main Content */
+  .body_header h2{
+    font-size: 40px;
+    color: #F9A11B;
+  }
+
+  .collection-text-box-double p{
+    padding: 15px 0;
+  }
+  .capeso-main-image-box{
+    width: 60%;
+  }
+  /* Collection Main Content End */
 }
 
 @media screen and (max-width: 800px) {
@@ -1045,7 +1633,7 @@ hr.footer-hor-rule-small{
 
   /* Hero */
   .capeso-main-image-box{
-    width: 45%;
+    width: 55%;
     height: auto;
     background-color: rgba(0, 167, 225, 0.6);
     top: 200px;
@@ -1138,7 +1726,7 @@ hr.footer-hor-rule-small{
   /* Main Content End */
 
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 30px;
     color: #F9A11B;
@@ -1157,7 +1745,6 @@ hr.footer-hor-rule-small{
       line-height: 25px;
     }
   /* Collection Main Content End */
-
 }
 
 @media screen and (max-width: 768px) {
@@ -1333,6 +1920,166 @@ hr.footer-hor-rule-small{
     height: 375px;
   }
   /* Main Content End */
+
+  /* Dealer Locator */
+  .dealer-locator-search form{
+    width: 100%;
+    height: 60px;
+  }
+
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 70%;
+  }
+
+  .dealer-locator-search ::placeholder {
+   padding-left: 10px;
+  }
+
+  .dealer-locator-search button{
+    position: relative;
+    top: -1px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 60px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 20px;
+      height:auto;
+    }
+
+  .results-container h3{
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 20px 0 10px 0;
+  }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 25px 0 -10px 0;
+  }
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    color: #00A7E1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px 0 25px 0;
+    text-decoration: none;
+  }
+
+  .results-container a:hover{
+    color: #F9A11B;
+    text-decoration: none;
+  }
+  /* Dealer Locator End */
+}
+
+
+@media screen and (max-width: 767px) {
+
+  /* Dealer Locator */
+  .dealer-locator-search form{
+    width: 100%;
+    height: 60px;
+  }
+
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 80%;
+  }
+  .dealer-locator-search ::placeholder {
+   padding-left: 10px;
+  }
+
+  .dealer-locator-search button{
+    position: relative;
+    top: -3px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 70px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 30px;
+      height:auto;
+    }
+
+  .hor-rule-2{
+    width: 98%;
+    height: 7px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+
+  .results-container h3{
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 20px 0 10px 0;
+  }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 25px 0 0px 0;
+  }
+
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    color: #00A7E1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0 25px 0;
+    text-decoration: none;
+  }
+
+  .results-container a:hover{
+    color: #F9A11B;
+    text-decoration: none;
+  }
+
+  .hor-rule-3{
+    width: 98%;
+    height: 3px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+  /* Dealer Locator End */
 }
 
 @media screen and (max-width: 730px) {
@@ -1476,7 +2223,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 25px;
   }
@@ -1588,7 +2335,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 22px;
     color: #F9A11B;
@@ -1716,8 +2463,7 @@ hr.footer-hor-rule-small{
 }
 
 @media screen and (max-width: 575px) {
-
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 20px;
     color: #F9A11B;
@@ -1766,6 +2512,9 @@ hr.footer-hor-rule-small{
       color: #ffffff;
       padding: 25px 0;
     }
+    .collection-text-box-double p{
+      padding: 15px 0;
+    }
   /* Collection Main Content End */
 
 }
@@ -1798,7 +2547,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 20px;
     color: #F9A11B;
@@ -1817,6 +2566,17 @@ hr.footer-hor-rule-small{
       line-height: 28px;
     }
   /* Collection Main Content End */
+
+
+  /* Dealer Locator */
+  .dealer-locator-search input[type=text] {
+    width: 70%;
+  }
+
+  .dealer-locator-search button{
+    top: -2px;
+  }
+  /* Dealer Locator End */
 }
 
 @media screen and (max-width: 480px) {
@@ -1863,7 +2623,7 @@ hr.footer-hor-rule-small{
   /* Main Content End */
 
 
-    /* Collections Main Content */
+    /* Collection Main Content */
     .body_header h2{
       font-size: 20px;
       color: #F9A11B;
@@ -2036,7 +2796,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 20px;
     color: #F9A11B;
@@ -2081,7 +2841,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-    /* Collections Main Content */
+    /* Collection Main Content */
     .body_header h2{
       font-size: 18px;
       color: #F9A11B;
@@ -2100,6 +2860,30 @@ hr.footer-hor-rule-small{
         line-height: 25px;
       }
     /* Collection Main Content End */
+
+    /* Dealer Locator */
+    .results-container h4{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 20px;
+      margin: 25px 0 -10px 0;
+    }
+
+    .results-container p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 17px;
+      line-height: 23px;
+      margin: 20px 0 25px 0;
+    }
+
+    .results-container a:link{
+      font-size: 17px;
+      line-height: 23px;
+    }
+    /* Dealer Locator End */
 }
 
 @media screen and (max-width: 375px) {
@@ -2130,7 +2914,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 18px;
     color: #F9A11B;
@@ -2179,7 +2963,35 @@ hr.footer-hor-rule-small{
       color: #ffffff;
       padding: 25px 0;
     }
+
+    .collection-text-box-double p{
+      padding: 15px 0;
+    }
   /* Collection Main Content End */
+
+  /* Dealer Locator */
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 25px 0 -10px 0;
+  }
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    font-size: 17px;
+    line-height: 23px;
+  }
+  /* Dealer Locator End */
 }
 
 @media screen and (max-width: 350px) {
@@ -2216,7 +3028,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 15px;
     color: #F9A11B;
@@ -2266,6 +3078,52 @@ hr.footer-hor-rule-small{
       padding: 20px 0;
     }
   /* Collection Main Content End */
+
+  /* Dealer Locator */
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 70%;
+  }
+  .dealer-locator-search button{
+    position: relative;
+    top: -1px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 60px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 20px;
+      height:auto;
+    }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 25px 0 -10px 0;
+  }
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  /* Dealer Locator End */
+
+
 }
 
 @media screen and (max-width: 320px) {
@@ -2306,7 +3164,7 @@ hr.footer-hor-rule-small{
   /* Main Content End */
 
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 15px;
     color: #F9A11B;
@@ -2350,10 +3208,13 @@ hr.footer-hor-rule-small{
 
     .collection-text-box p{
       text-align: center;
-      font-size: 15px;
+      font-size: 13px;
       line-height: 20px;
       color: #ffffff;
       padding: 20px 0;
+    }
+    .collection-text-box-double p{
+      padding: 12px 0;
     }
   /* Collection Main Content End */
 }
@@ -2385,7 +3246,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 15px;
     color: #F9A11B;
@@ -2429,10 +3290,13 @@ hr.footer-hor-rule-small{
 
     .collection-text-box p{
       text-align: center;
-      font-size: 15px;
+      font-size: 13px;
       line-height: 20px;
       color: #ffffff;
       padding: 20px 0;
+    }
+    .collection-text-box-double p{
+      padding: 12px 0;
     }
   /* Collection Main Content End */
 }
@@ -2449,7 +3313,7 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-  /* Collections Main Content */
+  /* Collection Main Content */
   .body_header h2{
     font-size: 14px;
     color: #F9A11B;
@@ -2499,4 +3363,48 @@ hr.footer-hor-rule-small{
       padding: 18px 0;
     }
   /* Collection Main Content End */
+
+  /* Dealer Locator */
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    font-size: 17px;
+    height: 50px;
+    width: 65%;
+  }
+  .dealer-locator-search button{
+    position: relative;
+    top: 0px;
+    left: -5px;
+    background-color: #F9A11B;
+    border: none;
+    width: 50px;
+    height: 50px;
+  }
+    .search_button_image{
+      width: 20px;
+      height:auto;
+    }
+
+  .results-container h4{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 25px 0 -10px 0;
+  }
+
+  .results-container p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px 0 25px 0;
+  }
+
+  .results-container a:link{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  /* Dealer Locator End */
 }
