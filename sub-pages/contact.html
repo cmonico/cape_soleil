@@ -97,14 +97,20 @@
         </div>
         <div class="row justify-content-center" style="margin-top: 40px; margin-bottom: 40px;">
           <div class="col-lg-10 col-md-10 col-sm-10 col-10">
-            <div class="dealer-locator-search">
+            <div class="contact-forum-container submit-button">
               <form action="/action_page.php">
-                <input class="first-name-form" type="text" placeholder="First Name" name="First Name">
-                <input class="last-name-form" type="text" placeholder="Last Name" name="Last Name">
-                <input class="email-form" type="text" placeholder="Email" name="Email">
-                <input class="subject-form" type="text" placeholder="Subject" name="Subject">
-                <input class="message-form" type="text" placeholder="Message" name="Message">
-                <button type="submit"><img src="../images/search_button.png" class="search_button_image"></img></button>
+                <div class="first-last-container">
+                  <div class="first-name-form"><input type="text" placeholder="First Name" name="First Name"></div>
+                  <div class="last-name-form"><input type="text" placeholder="Last Name" name="Last Name"></div>
+                </div>
+                <br>
+                <div class="email-form"><input type="text" placeholder="Email" name="Email"></div>
+                <br>
+                <div class="subject-form"><input type="text" placeholder="Subject" name="Subject"></div>
+                <br>
+                <div class="message-form"><textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Message" ></textarea></div>
+                <br>
+                <button type="submit">Submit</button>
               </form>
             </div>
           </div>
@@ -179,7 +185,7 @@
           </div>
           <div class="d-lg-none col-md-4 col-sm-4 col-4 footer-column-spacer footer-text-sub">
             <ul style="text-align: right; margin-right: 10px;">
-              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="../index.html" target="_blank">Home</a></li>
               <li><a href="collections.html" target="_blank">Collections</a></li>
               <li><a href="dlocator.html" target="_blank">Dealer Locator</a></li>
               <li><a href="contacts.html" target="_blank">Contact</a></li>
