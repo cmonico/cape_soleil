@@ -3134,6 +3134,10 @@ hr.footer-hor-rule-small{
     font-size: 17px;
     line-height: 23px;
   }
+
+  .dealer-locator-search button{
+    top: -1px;
+  }
   /* Dealer Locator End */
 }
 
