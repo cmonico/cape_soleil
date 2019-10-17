@@ -362,9 +362,6 @@ body {
   height: 50px;
 }
 
-.dealer-locator-search form{
-}
-
 .dealer-locator-search input[type=text] {
   border: 5px solid #F9A11B;
   border-radius: 0;
@@ -590,7 +587,52 @@ body {
 }
 /* Contact End */
 
+/* Collection Product Showcase Template */
+.collection-product-showcase-container{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+  .collection-product-showcase img{
+    border: 6px solid #52544A;
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .collection-product-showcase h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .collection-product-showcase h3{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #000000;
+  }
+
+  .collection-product-showcase a:link{
+    text-decoration: none;
+    color: #000000;
+  }
+/* Collection Product Showcase Template End */
+
 /* Footer */
+.footer-hidden { /* Used to hide footer until collections pages become available */
+  display: none;
+}
+
 .footer-main{
   padding: 35px;
 }
@@ -800,7 +842,6 @@ hr.footer-hor-rule-small{
   }
   /* Index Main Content End */
 
-
   /* Collection Main Content */
   .collection-container{
     width: 350px;
@@ -810,14 +851,10 @@ hr.footer-hor-rule-small{
     }
   /* Collection Main Content End */
 
-
   /* Dealer Locator */
   .dealer-locator-search {
     width: 100%;
     height: 50px;
-  }
-
-  .dealer-locator-search form{
   }
 
   .dealer-locator-search input[type=text] {
@@ -846,6 +883,17 @@ hr.footer-hor-rule-small{
     }
   /* Dealer Locator End */
 
+  /* Collection Product Showcase Template */
+    .collection-product-showcase h2{
+      font-size: 26px;
+      line-height: 26px;
+    }
+
+    .collection-product-showcase h3{
+      font-size: 26px;
+      line-height: 26px;
+    }
+  /* Collection Product Showcase Template End */
 }
 
  @media screen and (max-width:1560px){
@@ -933,6 +981,19 @@ hr.footer-hor-rule-small{
        line-height: 25px;
      }
    /* Collection Main Content End */
+
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  /* Collection Product Showcase Template End */
  }
 
  @media screen and (max-width: 1480px) {
@@ -1101,9 +1162,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -1157,6 +1215,18 @@ hr.footer-hor-rule-small{
     text-decoration: none;
   }
   /* Dealer Locator End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 23px;
+    line-height: 23px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 23px;
+    line-height: 23px;
+  }
+  /* Collection Product Showcase Template End */
   }
 
   @media screen and (max-width:1320px){
@@ -1265,9 +1335,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -1329,6 +1396,18 @@ hr.footer-hor-rule-small{
     text-decoration: none;
   }
   /* Dealer Locator End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 22px;
+    line-height: 22px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 1200px){
@@ -1337,9 +1416,6 @@ hr.footer-hor-rule-small{
   .dealer-locator-search {
     width: 100%;
     height: 50px;
-  }
-
-  .dealer-locator-search form{
   }
 
   .dealer-locator-search input[type=text] {
@@ -1421,6 +1497,17 @@ hr.footer-hor-rule-small{
   }
   /* Dealer Locator End */
 
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 1150px){
@@ -1555,9 +1642,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -1638,6 +1722,17 @@ hr.footer-hor-rule-small{
   }
   /* Dealer Locator End */
 
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 18px;
+    line-height: 18px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 1000px) {
@@ -1715,9 +1810,6 @@ hr.footer-hor-rule-small{
   .dealer-locator-search {
     width: 100%;
     height: 50px;
-  }
-
-  .dealer-locator-search form{
   }
 
   .dealer-locator-search input[type=text] {
@@ -1799,6 +1891,18 @@ hr.footer-hor-rule-small{
     margin: 0 0 15px 0;
   }
   /* Dealer Locator End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 16px;
+    line-height: 16px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 991px) {
@@ -1929,9 +2033,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -1996,6 +2097,18 @@ hr.footer-hor-rule-small{
     text-decoration: none;
   }
   /* Dealer Locator End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 880px)  {
@@ -2172,6 +2285,18 @@ hr.footer-hor-rule-small{
       line-height: 25px;
     }
   /* Collection Main Content End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 768px) {
@@ -2362,9 +2487,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -2443,9 +2565,6 @@ hr.footer-hor-rule-small{
   .dealer-locator-search {
     width: 100%;
     height: 50px;
-  }
-
-  .dealer-locator-search form{
   }
 
   .dealer-locator-search input[type=text] {
@@ -2792,6 +2911,18 @@ hr.footer-hor-rule-small{
       line-height: 23px;
     }
   /* Collection Main Content End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 21px;
+    line-height: 21px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 21px;
+    line-height: 21px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 600px){
@@ -2894,6 +3025,18 @@ hr.footer-hor-rule-small{
     color: #000000;
   }
   /* Footer End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 575px) {
@@ -2951,6 +3094,17 @@ hr.footer-hor-rule-small{
     }
   /* Collection Main Content End */
 
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 555px) {
@@ -3003,9 +3157,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -3050,6 +3201,18 @@ hr.footer-hor-rule-small{
     padding: 25px 23px 15px 23px;
   }
   /* Main Content End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 450px) {
@@ -3282,9 +3445,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -3356,9 +3516,6 @@ hr.footer-hor-rule-small{
       height: 50px;
     }
 
-    .dealer-locator-search form{
-    }
-
     .dealer-locator-search input[type=text] {
       border: 5px solid #F9A11B;
       border-radius: 0;
@@ -3406,6 +3563,18 @@ hr.footer-hor-rule-small{
       line-height: 23px;
     }
     /* Dealer Locator End */
+
+    /* Collection Product Showcase Template */
+    .collection-product-showcase h2{
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+    .collection-product-showcase h3{
+      font-size: 23px;
+      line-height: 23px;
+    }
+    /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 375px) {
@@ -3497,9 +3666,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -3551,6 +3717,18 @@ hr.footer-hor-rule-small{
     top: 0px;
   }
   /* Dealer Locator End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 350px) {
@@ -3644,9 +3822,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -3694,8 +3869,6 @@ hr.footer-hor-rule-small{
     line-height: 22px;
   }
   /* Dealer Locator End */
-
-
 }
 
 @media screen and (max-width: 320px) {
@@ -3789,6 +3962,18 @@ hr.footer-hor-rule-small{
       padding: 12px 0;
     }
   /* Collection Main Content End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 18px;
+    line-height: 18px;
+  }
+  /* Collection Product Showcase Template End */
 }
 
 @media screen and (max-width: 310px) {
@@ -3874,7 +4059,6 @@ hr.footer-hor-rule-small{
 }
 
 @media screen and (max-width: 290px) {
-  /*iPhone 6/7/8*/
   /* Hero */
   .capeso-main-image-box{
     top: 80px;
@@ -3942,9 +4126,6 @@ hr.footer-hor-rule-small{
     height: 50px;
   }
 
-  .dealer-locator-search form{
-  }
-
   .dealer-locator-search input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
@@ -3992,4 +4173,16 @@ hr.footer-hor-rule-small{
     line-height: 22px;
   }
   /* Dealer Locator End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase h2{
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .collection-product-showcase h3{
+    font-size: 16px;
+    line-height: 16px;
+  }
+  /* Collection Product Showcase Template End */
 }
