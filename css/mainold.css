@@ -289,7 +289,76 @@ body {
 }
 /* End Main Content */
 
+
 /* Collection Main Content */
+.body_header{
+  margin: 50px 0 0 0;
+}
+
+.body_header h2{
+  font-size: 60px;
+  color: #F9A11B;
+  font-family: 'Federo', sans-serif;
+}
+
+.collection-container{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+  .collection-img-container img{
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .collection-container a:link{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .collection-container a:hover{
+    text-decoration: none;
+  }
+
+  .collection-text-box{
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .collection-text-box p{
+    text-align: center;
+    font-size: 23px;
+    line-height: 28px;
+    color: #ffffff;
+    padding: 25px 0;
+  }
+
+  .collection-text-box-double p{
+    padding: 15px 0;
+  }
+
+  .fabrics-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+/* Collection Main Content End */
+
+/* Collection Main Content
 .body_header{
   margin: 50px 0 0 0;
 }
@@ -354,7 +423,7 @@ body {
     margin-right: auto;
     width: 90%;
   }
-/* Collection Main Content End */
+ Collection Main Content End */
 
 /* Dealer Locator */
 .dealer-locator-search {
@@ -842,15 +911,6 @@ hr.footer-hor-rule-small{
   }
   /* Index Main Content End */
 
-  /* Collection Main Content */
-  .collection-container{
-    width: 350px;
-  }
-    .collection-images{
-      width:350px;
-    }
-  /* Collection Main Content End */
-
   /* Dealer Locator */
   .dealer-locator-search {
     width: 100%;
@@ -968,14 +1028,6 @@ hr.footer-hor-rule-small{
    /* Index Main Content End */
 
    /* Collection Main Content */
-   .collection-container{
-     width: 300px;
-   }
-
-     .collection-images{
-       width:300px;
-     }
-
      .collection-text-box p{
        font-size: 20px;
        line-height: 25px;
@@ -1105,31 +1157,6 @@ hr.footer-hor-rule-small{
     font-size: 50px;
     color: #F9A11B;
   }
-
-  .collection-container{
-    width: 250px;
-    height: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-
-    .collection-container a:link{
-      text-decoration: none;
-    }
-
-    .collection-container a:hover{
-      text-decoration: none;
-    }
-
-    .collection-images{
-      display: block;
-      width: 250px;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
-    }
 
     .collection-text-box{
       position: relative;
@@ -1622,14 +1649,6 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 225px;
-  }
-
-    .collection-images{
-      width: 225px;
-    }
-
     .collection-text-box p{
       font-size: 17px;
       line-height: 22px;
@@ -1774,14 +1793,6 @@ hr.footer-hor-rule-small{
     font-size: 45px;
     color: #F9A11B;
   }
-
-  .collection-container{
-    width: 200px;
-  }
-
-    .collection-images{
-      width: 200px;
-    }
 
     .collection-text-box{
       position: relative;
@@ -2003,10 +2014,6 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 350px;
-  }
-
     .collection-images{
       display: block;
       width:350px;
@@ -2145,14 +2152,6 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 300px;
-  }
-
-  .collection-images{
-    width: 300px;
-  }
-
   .collection-text-box-double p{
     padding: 15px 0;
   }
@@ -2279,14 +2278,6 @@ hr.footer-hor-rule-small{
     font-size: 30px;
     color: #F9A11B;
   }
-
-  .collection-container{
-    width: 300px;
-  }
-
-    .collection-images{
-      width:300px;
-    }
 
     .collection-text-box p{
       font-size: 21px;
@@ -2568,14 +2559,6 @@ hr.footer-hor-rule-small{
 
 
 @media screen and (max-width: 767px) {
-  /* Collection Main Content */
-  .collection-container{
-    width: 275px;
-  }
-  .collection-images{
-    width: 275px;
-  }
-  /* Collection Main Content End */
 
   /* Dealer Locator */
   .dealer-locator-search {
@@ -2810,17 +2793,9 @@ hr.footer-hor-rule-small{
     font-size: 25px;
   }
 
-  .collection-container{
-    width: 250px;
-  }
-
-    .collection-images{
-      width:250px;
-    }
-
     .collection-text-box p{
-      font-size: 18px;
-      line-height: 23px;
+      font-size: 21px;
+      line-height: 25px;
     }
   /* Collection Main Content End */
 }
@@ -2913,14 +2888,6 @@ hr.footer-hor-rule-small{
     font-size: 22px;
     color: #F9A11B;
   }
-
-  .collection-container{
-    width: 225px;
-  }
-
-    .collection-images{
-      width: 225px;
-    }
 
     .collection-text-box p{
       font-size: 18px;
@@ -3062,29 +3029,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 391px;
-    height: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-
     .collection-container a:link{
       text-decoration: none;
     }
 
     .collection-container a:hover{
       text-decoration: none;
-    }
-
-    .collection-images{
-      display: block;
-      width:391px;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
     }
 
     .collection-text-box{
@@ -3151,14 +3101,6 @@ hr.footer-hor-rule-small{
     font-size: 20px;
     color: #F9A11B;
   }
-
-  .collection-container{
-    width: 350px;
-  }
-
-    .collection-images{
-      width:350px;
-    }
 
     .collection-text-box p{
       font-size: 23px;
@@ -3261,14 +3203,6 @@ hr.footer-hor-rule-small{
       font-size: 20px;
       color: #F9A11B;
     }
-
-    .collection-container{
-      width: 300px;
-    }
-
-      .collection-images{
-        width: 300px;
-      }
 
       .collection-text-box p{
         font-size: 22px;
@@ -3435,19 +3369,6 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 300px;
-    height: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-
-    .collection-images{
-      width:300px;
-    }
-
     .collection-text-box p{
       text-align: center;
       font-size: 20px;
@@ -3511,14 +3432,6 @@ hr.footer-hor-rule-small{
       font-size: 18px;
       color: #F9A11B;
     }
-
-    .collection-container{
-      width: 280px;
-    }
-
-      .collection-images{
-        width: 280px;
-      }
 
       .collection-text-box p{
         font-size: 20px;
@@ -3627,29 +3540,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 250px;
-    height: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-
     .collection-container a:link{
       text-decoration: none;
     }
 
     .collection-container a:hover{
       text-decoration: none;
-    }
-
-    .collection-images{
-      display: block;
-      width: 250px;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
     }
 
     .collection-text-box{
@@ -3665,8 +3561,8 @@ hr.footer-hor-rule-small{
 
     .collection-text-box p{
       text-align: center;
-      font-size: 18px;
-      line-height: 23px;
+      font-size: 23px;
+      line-height: 28px;
       color: #ffffff;
       padding: 25px 0;
     }
@@ -3787,29 +3683,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 200px;
-    height: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-
     .collection-container a:link{
       text-decoration: none;
     }
 
     .collection-container a:hover{
       text-decoration: none;
-    }
-
-    .collection-images{
-      display: block;
-      width: 200px;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
     }
 
     .collection-text-box{
@@ -3931,29 +3810,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 175px;
-    height: auto;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-  }
-
     .collection-container a:link{
       text-decoration: none;
     }
 
     .collection-container a:hover{
       text-decoration: none;
-    }
-
-    .collection-images{
-      display: block;
-      width: 175px;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
     }
 
     .collection-text-box{
@@ -4025,29 +3887,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 175px;
-    height: auto;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-  }
-
     .collection-container a:link{
       text-decoration: none;
     }
 
     .collection-container a:hover{
       text-decoration: none;
-    }
-
-    .collection-images{
-      display: block;
-      width: 175px;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
     }
 
     .collection-text-box{
@@ -4091,29 +3936,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
-  .collection-container{
-    width: 150px;
-    height: auto;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-  }
-
     .collection-container a:link{
       text-decoration: none;
     }
 
     .collection-container a:hover{
       text-decoration: none;
-    }
-
-    .collection-images{
-      display: block;
-      width: 150px;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
     }
 
     .collection-text-box{
