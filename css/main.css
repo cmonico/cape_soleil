@@ -348,6 +348,8 @@ body {
 
 .dealer-locator-search input[type=text] {
   border: 5px solid #F9A11B;
+  border-radius: 0;
+  -webkit-appearance: none;
   font-size: 17px;
   height: 50px;
   width: 80%;
@@ -442,6 +444,8 @@ body {
   }
     .first-name-form input[type=text] {
       border: 5px solid #F9A11B;
+      border-radius: 0;
+      -webkit-appearance: none;
       font-size: 17px;
       width: 98%;
       height: 60px;
@@ -456,6 +460,8 @@ body {
   }
     .last-name-form input[type=text] {
       border: 5px solid #F9A11B;
+      border-radius: 0;
+      -webkit-appearance: none;
       font-size: 17px;
       width: 98%;
       height: 60px;
@@ -466,6 +472,8 @@ body {
 
   .email-form input[type=text] {
     border: 5px solid #F9A11B;
+    border-radius: 0;
+    -webkit-appearance: none;
     font-size: 17px;
     height: 60px;
     width: 100%;
@@ -474,6 +482,8 @@ body {
 
   .subject-form input[type=text] {
     border: 5px solid #F9A11B;
+    border-radius: 0;
+    -webkit-appearance: none;
     font-size: 17px;
     height: 60px;
     width: 100%;
@@ -482,6 +492,8 @@ body {
 
   .message-form textarea {
     border: 5px solid #F9A11B;
+    border-radius: 0;
+    -webkit-appearance: none;
     font-size: 17px;
     height: 200px;
     width: 100%;
