@@ -3136,7 +3136,7 @@ hr.footer-hor-rule-small{
   }
 
   .dealer-locator-search button{
-    top: -1px;
+    top: 0px;
   }
   /* Dealer Locator End */
 }
