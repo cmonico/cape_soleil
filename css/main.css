@@ -3358,6 +3358,12 @@ hr.footer-hor-rule-small{
 }
 
 @media screen and (max-width: 480px) {
+  /* Hero */
+    .capeso-main-image-box{
+      top: 130px;
+    }
+  /* Hero End */
+
   /* Main Content */
   .capeso-main-body{
     height: 425px;
