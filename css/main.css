@@ -360,6 +360,25 @@ body {
     margin-right: auto;
     width: 90%;
   }
+
+  .fabrics-header{
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+
+  .fabrics-header p{
+    font-size:17px;
+    line-height:26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .fabrics-logos{
+    width: 30%;
+    height:auto;
+  }
 /* Collection Main Content End */
 
 /* Dealer Locator */
@@ -700,7 +719,7 @@ body {
 /* Collection Product Detail End */
 
 /* Footer */
-.footer-hidden { /* Used to hide footer until collections pages become available */
+.footer-hidden {
   display: none;
 }
 
@@ -2681,6 +2700,12 @@ hr.footer-hor-rule-small{
     margin-bottom: 40px;
   }
   /* Dealer Locator End */
+
+  /* Collection Product Showcase Template */
+  .collection-product-showcase img{
+    border: none;
+  }
+  /* Collection Product Showcase Template End*/
 }
 
 
@@ -3250,6 +3275,11 @@ hr.footer-hor-rule-small{
     }
     .collection-text-box-double p{
       padding: 15px 0;
+    }
+
+    .fabrics-logos {
+      width: 60%;
+      height:auto;
     }
   /* Collection Main Content End */
 
