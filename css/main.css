@@ -294,11 +294,17 @@ body {
   margin: 50px 0 0 0;
 }
 
-.body_header h2{
-  font-size: 60px;
-  color: #F9A11B;
-  font-family: 'Federo', sans-serif;
-}
+  .body_header h2{
+    font-size: 60px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
+  .body_header h3{
+    font-size: 40px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
 
 .collection-container{
   width: 391px;
@@ -588,6 +594,14 @@ body {
 /* Contact End */
 
 /* Collection Product Showcase Template */
+.breadcrumbs p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #888888;
+}
+
 .collection-product-showcase-container{
   width: 100%;
   height: auto;
@@ -627,6 +641,63 @@ body {
     color: #000000;
   }
 /* Collection Product Showcase Template End */
+
+/* Collection Product Detail */
+.carousel-indicators-images {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0px;
+  z-index: 0 !important;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-indicators-images li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 300px !important;
+  height: auto;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-indicators-images li {
+    transition: none;
+  }
+}
+
+.carousel-indicators-images .active {
+  opacity: 1;
+}
+
+.product-details-list-main li{
+  margin-left: -34px;
+  padding-left: -50px;
+ }
+  .product-details-list-secondary ul li{
+    list-style: none;
+    margin-left: -40px;
+  }​
+
+/* Collection Product Detail End */
 
 /* Footer */
 .footer-hidden { /* Used to hide footer until collections pages become available */
@@ -1104,6 +1175,12 @@ hr.footer-hor-rule-small{
   .body_header h2{
     font-size: 50px;
     color: #F9A11B;
+  }
+
+  .body_header h3{
+    font-size: 40px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
   }
 
   .collection-container{
@@ -1622,6 +1699,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 35px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 225px;
   }
@@ -1771,8 +1854,14 @@ hr.footer-hor-rule-small{
   }
 
   .body_header h2{
-    font-size: 45px;
+    font-size: 43px;
     color: #F9A11B;
+  }
+
+  .body_header h3{
+    font-size: 35px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
   }
 
   .collection-container{
@@ -1999,8 +2088,14 @@ hr.footer-hor-rule-small{
 
   /* Collection Main Content */
   .body_header h2{
-    font-size: 45px;
+    font-size: 40px;
     color: #F9A11B;
+  }
+
+  .body_header h3{
+    font-size: 32px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
   }
 
   .collection-container{
@@ -2145,6 +2240,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 32px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 300px;
   }
@@ -2157,6 +2258,16 @@ hr.footer-hor-rule-small{
     padding: 15px 0;
   }
   /* Collection Main Content End */
+
+  /* Collection Product Showcase Template */
+  .breadcrumbs p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #888888;
+  }
+  /* Collection Product Showcase Template End*/
 }
 
 @media screen and (max-width: 800px) {
@@ -2278,6 +2389,12 @@ hr.footer-hor-rule-small{
   .body_header h2{
     font-size: 30px;
     color: #F9A11B;
+  }
+
+  .body_header h3{
+    font-size: 25px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
   }
 
   .collection-container{
@@ -2810,6 +2927,12 @@ hr.footer-hor-rule-small{
     font-size: 25px;
   }
 
+  .body_header h3{
+    font-size: 20px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 250px;
   }
@@ -2914,6 +3037,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 18px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 225px;
   }
@@ -2929,6 +3058,14 @@ hr.footer-hor-rule-small{
   /* Collection Main Content End */
 
   /* Collection Product Showcase Template */
+  .breadcrumbs p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #888888;
+  }
+
   .collection-product-showcase h2{
     font-size: 21px;
     line-height: 21px;
@@ -3062,6 +3199,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 18px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 391px;
     height: auto;
@@ -3111,6 +3254,14 @@ hr.footer-hor-rule-small{
   /* Collection Main Content End */
 
   /* Collection Product Showcase Template */
+  .breadcrumbs p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #888888;
+  }
+
   .collection-product-showcase h2{
     font-size: 30px;
     line-height: 30px;
@@ -3150,6 +3301,12 @@ hr.footer-hor-rule-small{
   .body_header h2{
     font-size: 20px;
     color: #F9A11B;
+  }
+
+  .body_header h3{
+    font-size: 18px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
   }
 
   .collection-container{
@@ -3260,6 +3417,12 @@ hr.footer-hor-rule-small{
     .body_header h2{
       font-size: 20px;
       color: #F9A11B;
+    }
+
+    .body_header h3{
+      font-size: 18px;
+      color: #F9A11B;
+      font-family: 'Federo', sans-serif;
     }
 
     .collection-container{
@@ -3435,6 +3598,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 18px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 300px;
     height: auto;
@@ -3510,6 +3679,12 @@ hr.footer-hor-rule-small{
     .body_header h2{
       font-size: 18px;
       color: #F9A11B;
+    }
+
+    .body_header h3{
+      font-size: 15px;
+      color: #F9A11B;
+      font-family: 'Federo', sans-serif;
     }
 
     .collection-container{
@@ -3627,6 +3802,11 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 15px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
   .collection-container{
     width: 250px;
     height: auto;
@@ -3735,6 +3915,14 @@ hr.footer-hor-rule-small{
   /* Dealer Locator End */
 
   /* Collection Product Showcase Template */
+  .breadcrumbs p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #888888;
+  }
+
   .collection-product-showcase h2{
     font-size: 20px;
     line-height: 20px;
@@ -3787,6 +3975,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 13px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 200px;
     height: auto;
@@ -3829,6 +4023,10 @@ hr.footer-hor-rule-small{
       line-height: 20px;
       color: #ffffff;
       padding: 20px 0;
+    }
+
+    .collection-text-box-double p{
+      padding: 13px 0;
     }
   /* Collection Main Content End */
 
@@ -3931,6 +4129,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 13px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 175px;
     height: auto;
@@ -4025,6 +4229,12 @@ hr.footer-hor-rule-small{
     color: #F9A11B;
   }
 
+  .body_header h3{
+    font-size: 13px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
+  }
+
   .collection-container{
     width: 175px;
     height: auto;
@@ -4072,6 +4282,17 @@ hr.footer-hor-rule-small{
       padding: 12px 0;
     }
   /* Collection Main Content End */
+
+  /* Dealer Locator */
+  .dealer-locator-search input[type=text] {
+    border: 5px solid #F9A11B;
+    border-radius: 0;
+    -webkit-appearance: none;
+    font-size: 17px;
+    height: 50px;
+    width: 60%;
+  }
+  /* Dealer Locator End */
 }
 
 @media screen and (max-width: 290px) {
@@ -4089,6 +4310,12 @@ hr.footer-hor-rule-small{
   .body_header h2{
     font-size: 14px;
     color: #F9A11B;
+  }
+
+  .body_header h3{
+    font-size: 13px;
+    color: #F9A11B;
+    font-family: 'Federo', sans-serif;
   }
 
   .collection-container{
@@ -4148,8 +4375,9 @@ hr.footer-hor-rule-small{
     -webkit-appearance: none;
     font-size: 17px;
     height: 50px;
-    width: 70%;
+    width: 60%;
   }
+
   .dealer-locator-search ::placeholder {
    padding-left: 10px;
   }
