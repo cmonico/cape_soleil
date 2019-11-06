@@ -41,8 +41,8 @@ body {
       .main_nav_text ul {
         list-style-type: none;
         margin-top: 0;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 300px;
+        margin-right: 300px;
         margin-bottom: auto;
         padding: 0;
       }
@@ -586,6 +586,68 @@ body {
   background-color: #F9A11B;
   margin: 0 0 15px 0;
 }
+
+.contact-link a:link{
+ color: #00A7E1;
+}
+
+.body_header h4{
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 600px;
+  line-height: 28px;
+}
+
+  /* Modal */
+  .contact-modal {
+    display: none;
+    position: fixed;
+    top: 30vh;
+    left: 25%;
+    z-index: 5;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #ffffff;
+    border: solid 3px #F9A11B;
+    border-radius: 20px;
+  }
+
+  .contact-modal-content h2{
+    color: #F9A11B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 10px;
+  }
+
+  .contact-modal-content p{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .contact-modal-content {
+    padding: 40px;
+    height: 100%;
+  }
+
+  hr.modal-hor-rule{
+    border: 3px solid #F9A11B;
+    width: 100%;
+  }
+
+  .close_modal {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+  }
+  /* Modal End */
 /* Contact End */
 
 /* Collection Product Showcase Template */
@@ -796,8 +858,8 @@ hr.footer-hor-rule-small{
     .main_nav_text ul {
       list-style-type: none;
       margin-top: 0;
-      margin-left: 175px;
-      margin-right: 175px;
+      margin-left: 200px;
+      margin-right: 200px;
       margin-bottom: auto;
       padding: 0;
     }
@@ -1075,6 +1137,18 @@ hr.footer-hor-rule-small{
  }
 
  @media screen and (max-width: 1480px) {
+   /* Nav */
+     /* Positions nav text in from sides, removes padding, removes list bullets. */
+     .main_nav_text ul {
+       list-style-type: none;
+       margin-top: 0;
+       margin-left: 175px;
+       margin-right: 175px;
+       margin-bottom: auto;
+       padding: 0;
+     }
+   /* Nav End */
+
    /* Hero */
    .capeso-main-image-box{
      top: 300px;
@@ -1178,6 +1252,18 @@ hr.footer-hor-rule-small{
 }
 
   @media screen and (max-width: 1350px) {
+  /* Nav */
+    /* Positions nav text in from sides, removes padding, removes list bullets. */
+    .main_nav_text ul {
+      list-style-type: none;
+      margin-top: 0;
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-bottom: auto;
+      padding: 0;
+    }
+  /* Nav End */
+
   /* Collection Main Content */
   .body_header h2{
     font-size: 50px;
@@ -1371,6 +1457,18 @@ hr.footer-hor-rule-small{
  }
 
 @media screen and (max-width: 1280px) {
+  /* Nav */
+    /* Positions nav text in from sides, removes padding, removes list bullets. */
+    .main_nav_text ul {
+      list-style-type: none;
+      margin-top: 0;
+      margin-left: 125px;
+      margin-right: 125px;
+      margin-bottom: auto;
+      padding: 0;
+    }
+  /* Nav End */
+
   /* Hero */
   .capeso-main-image-box{
     width: 45%;
@@ -1495,6 +1593,17 @@ hr.footer-hor-rule-small{
 }
 
 @media screen and (max-width: 1200px){
+  /* Nav */
+    /* Positions nav text in from sides, removes padding, removes list bullets. */
+    .main_nav_text ul {
+      list-style-type: none;
+      margin-top: 0;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: auto;
+      padding: 0;
+    }
+  /* Nav End */
 
   /* Dealer Locator */
   .dealer-locator-search {
@@ -1602,8 +1711,8 @@ hr.footer-hor-rule-small{
 
   /* Positions nav text in from sides, removes padding, removes list bullets. */
   .main_nav_text ul {
-   margin-left: 125px;
-   margin-right: 125px;
+   margin-left: 100px;
+   margin-right: 100px;
   }
 
   .main-logo{
@@ -2002,6 +2111,14 @@ hr.footer-hor-rule-small{
 }
 
 @media screen and (max-width: 991px) {
+  /* nav */
+  /* Positions nav text in from sides, removes padding, removes list bullets. */
+  .main_nav_text ul {
+   margin-left: 75px;
+   margin-right: 75px;
+  }
+  /* Nav End */
+
   /* Main Content */
   .hor-rule{
     width: 98%;
@@ -2217,8 +2334,8 @@ hr.footer-hor-rule-small{
   /* nav */
   /* Positions nav text in from sides, removes padding, removes list bullets. */
   .main_nav_text ul {
-   margin-left: 75px;
-   margin-right: 75px;
+   margin-left: 45px;
+   margin-right: 45px;
   }
   /* Nav End */
 
@@ -2289,8 +2406,8 @@ hr.footer-hor-rule-small{
   /* nav */
   /* Positions nav text in from sides, removes padding, removes list bullets. */
   .main_nav_text ul {
-   margin-left: 75px;
-   margin-right: 75px;
+   margin-left: 30px;
+   margin-right: 30px;
   }
   /* Nav End */
 
@@ -2713,6 +2830,58 @@ hr.footer-hor-rule-small{
     margin-bottom: 40px;
   }
   /* Dealer Locator End */
+
+  /* Contact */
+    /* Modal */
+    .contact-modal {
+      display: none;
+      position: fixed;
+      top: 20vh;
+      left: 25%;
+      z-index: 5;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      background-color: #ffffff;
+      border: solid 3px #F9A11B;
+      border-radius: 20px;
+    }
+
+    .contact-modal-content h2{
+      color: #F9A11B;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 10px;
+    }
+
+    .contact-modal-content p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .contact-modal-content {
+      padding: 40px;
+      height: 100%;
+    }
+
+    hr.modal-hor-rule{
+      border: 3px solid #F9A11B;
+      width: 100%;
+    }
+
+    .close_modal {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin-bottom: 30px;
+      margin-left: auto;
+    }
+    /* Modal End */
+  /* Contact End */
 
   /* Collection Product Showcase Template */
   .collection-product-showcase img{
@@ -3183,6 +3352,11 @@ hr.footer-hor-rule-small{
       background-color: #F9A11B;
       margin: 0 0 15px 0;
     }
+
+    .body_header h4{
+      font-size: 20px;
+
+    }
   /* Contact End */
 
   /* Footer */
@@ -3424,6 +3598,44 @@ hr.footer-hor-rule-small{
       height:auto;
     }
   /* Dealer Locator End */
+
+  /* Contact */
+    /* Modal */
+    .contact-modal {
+      top: 25vh;
+      left: 15%;
+      width: 70%;
+    }
+
+    .contact-modal-content h2{
+      color: #F9A11B;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 10px;
+    }
+
+    .contact-modal-content p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .contact-modal-content {
+      padding: 40px;
+      height: 100%;
+    }
+
+    .close_modal {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin-bottom: 30px;
+      margin-left: auto;
+    }
+    /* Modal End */
+  /* Contact End */
 }
 
 @media screen and (max-width: 480px) {
@@ -3513,6 +3725,84 @@ hr.footer-hor-rule-small{
         line-height: 27px;
       }
     /* Collection Main Content End */
+
+  /* Contact */
+    /* Modal */
+    .contact-modal {
+      top: 25vh;
+      left: 15%;
+      width: 70%;
+    }
+
+    .contact-modal-content h2{
+      color: #F9A11B;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 10px;
+    }
+
+    .contact-modal-content p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .contact-modal-content {
+      padding: 40px;
+      height: 100%;
+    }
+
+    .close_modal {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin-bottom: 30px;
+      margin-left: auto;
+    }
+    /* Modal End */
+  /* Contact End */
+}
+
+@media screen and (max-width: 430px) {
+  /* Contact */
+    /* Modal */
+    .contact-modal {
+      top: 22vh;
+      left: 15%;
+      width: 70%;
+    }
+
+    .contact-modal-content h2{
+      color: #F9A11B;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 10px;
+    }
+
+    .contact-modal-content p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .contact-modal-content {
+      padding: 40px;
+      height: 100%;
+    }
+
+    .close_modal {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin-bottom: 30px;
+      margin-left: auto;
+    }
+    /* Modal End */
+  /* Contact End */
 }
 
 @media screen and (max-width: 414px) {
@@ -3737,6 +4027,12 @@ hr.footer-hor-rule-small{
     font-weight: 400;
     color: #F9A11B;
     font-family: 'Open Sans', sans-serif;
+  }
+
+  .body_header h4{
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 24px;
   }
   /* Contact End */
 }
@@ -3998,6 +4294,44 @@ hr.footer-hor-rule-small{
   }
   /* Dealer Locator End */
 
+  /* Contact */
+    /* Modal */
+    .contact-modal {
+      top: 20vh;
+      left: 15%;
+      width: 70%;
+    }
+
+    .contact-modal-content h2{
+      color: #F9A11B;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 10px;
+    }
+
+    .contact-modal-content p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      line-height: 24px;
+    }
+
+    .contact-modal-content {
+      padding: 40px;
+      height: 100%;
+    }
+
+    .close_modal {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin-bottom: 30px;
+      margin-left: auto;
+    }
+    /* Modal End */
+  /* Contact End */
+
   /* Collection Product Showcase Template */
   .breadcrumbs p{
     font-family: 'Open Sans', sans-serif;
@@ -4215,7 +4549,6 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
-
   /* Collection Main Content */
   .body_header h2{
     font-size: 15px;
@@ -4275,6 +4608,49 @@ hr.footer-hor-rule-small{
       padding: 12px 0;
     }
   /* Collection Main Content End */
+
+  /* Contact */
+    /* Modal */
+    .contact-modal {
+      top: 20vh;
+      left: 10%;
+      width: 80%;
+    }
+
+    .contact-modal-content h2{
+      color: #F9A11B;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 10px;
+    }
+
+    .contact-modal-content p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      line-height: 24px;
+    }
+
+    .contact-modal-content {
+      padding: 40px;
+      height: 100%;
+    }
+
+    .close_modal {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin-bottom: 30px;
+      margin-left: auto;
+    }
+
+    .body_header h4{
+      font-size: 15px;
+      line-height: 22px;
+    }
+    /* Modal End */
+  /* Contact End */
 
   /* Collection Product Showcase Template */
   .collection-product-showcase h2{
@@ -4510,6 +4886,52 @@ hr.footer-hor-rule-small{
     line-height: 22px;
   }
   /* Dealer Locator End */
+
+  /* Contact */
+    /* Modal */
+    .contact-modal {
+      top: 20vh;
+      left: 5%;
+      width: 90%;
+    }
+
+    .contact-modal-content h2{
+      color: #F9A11B;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 10px;
+    }
+
+    .contact-modal-content p{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      line-height: 24px;
+    }
+
+    .contact-modal-content {
+      padding: 40px;
+      height: 100%;
+    }
+
+    .close_modal {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin-bottom: 30px;
+      margin-left: auto;
+    }
+
+    .body_header h4{
+      color: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 600px;
+      line-height: 20px;
+    }
+    /* Modal End */
+  /* Contact End */
 
   /* Collection Product Showcase Template */
   .collection-product-showcase h2{
