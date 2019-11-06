@@ -13,6 +13,7 @@ body {
   z-index: 2;
   width: 100%;
   height: auto;
+  background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.2));
 }
 
 .main-nav-back{
@@ -29,9 +30,9 @@ body {
       width: 100%;
       height: 89px;
       font-family: 'Open Sans', sans-serif;
-      font-weight:600;
+      font-weight: 600;
       font-size: 19px;
-      line-height:25px;
+      line-height: 25px;
       color: white !important;
       margin: 10px 0;
     }
@@ -40,8 +41,8 @@ body {
       .main_nav_text ul {
         list-style-type: none;
         margin-top: 0;
-        margin-left: 75px;
-        margin-right: 75px;
+        margin-left: 200px;
+        margin-right: 200px;
         margin-bottom: auto;
         padding: 0;
       }
@@ -472,59 +473,34 @@ body {
 /* Dealer Locator End */
 
 /* Contact */
+.secondary_header h2{
+  font-size: 35px;
+  font-weight: 600;
+  color: #F9A11B;
+  font-family: 'Open Sans', sans-serif;
+}
+
+  .secondary_hor-rule{
+    width: 85%;
+    height: 10px;
+    background-color: #F9A11B;
+    margin: 0 0 15px 0;
+  }
+
+  .submit-hidden-desktop {
+    display: block;
+  }
+
+  .submit-hidden-mobile {
+    display: none;
+  }
+
+
 .contact-forum-container form{
   width: 100%;
   height: auto;
 }
-
-.first-last-container{
-      display: flex;
-      width: 100%;
-}
-
-  .first-name-form {
-    width: 100%;
-    height: auto;
-  }
-    .first-name-form input[type=text] {
-      border: 5px solid #F9A11B;
-      border-radius: 0;
-      -webkit-appearance: none;
-      font-size: 17px;
-      width: 98%;
-      height: 60px;
-      display: block;
-      margin-right:auto;
-      padding: 10px;
-    }
-
-  .last-name-form{
-    width: 100%;
-    height: auto;
-  }
-    .last-name-form input[type=text] {
-      border: 5px solid #F9A11B;
-      border-radius: 0;
-      -webkit-appearance: none;
-      font-size: 17px;
-      width: 98%;
-      height: 60px;
-      display: block;
-      margin-left:auto;
-      padding: 10px;
-    }
-
-  .email-form input[type=text] {
-    border: 5px solid #F9A11B;
-    border-radius: 0;
-    -webkit-appearance: none;
-    font-size: 17px;
-    height: 60px;
-    width: 100%;
-    padding: 10px;
-  }
-
-  .subject-form input[type=text] {
+  .main-form input[type=text] {
     border: 5px solid #F9A11B;
     border-radius: 0;
     -webkit-appearance: none;
@@ -815,6 +791,18 @@ hr.footer-hor-rule-small{
 /* End Footer */
 
 @media screen and (max-width: 1770px){
+  /* Nav */
+    /* Positions nav text in from sides, removes padding, removes list bullets. */
+    .main_nav_text ul {
+      list-style-type: none;
+      margin-top: 0;
+      margin-left: 175px;
+      margin-right: 175px;
+      margin-bottom: auto;
+      padding: 0;
+    }
+  /* Nav End */
+
   /* Hero */
   .capeso-main-image-box{
     top: 500px;
@@ -1614,8 +1602,8 @@ hr.footer-hor-rule-small{
 
   /* Positions nav text in from sides, removes padding, removes list bullets. */
   .main_nav_text ul {
-   margin-left: 40px;
-   margin-right: 40px;
+   margin-left: 125px;
+   margin-right: 125px;
   }
 
   .main-logo{
@@ -2226,6 +2214,14 @@ hr.footer-hor-rule-small{
 }
 
 @media screen and (max-width: 880px)  {
+  /* nav */
+  /* Positions nav text in from sides, removes padding, removes list bullets. */
+  .main_nav_text ul {
+   margin-left: 75px;
+   margin-right: 75px;
+  }
+  /* Nav End */
+
   /* Hero */
   .capeso-main-image-box{
     top: 200px;
@@ -2293,8 +2289,8 @@ hr.footer-hor-rule-small{
   /* nav */
   /* Positions nav text in from sides, removes padding, removes list bullets. */
   .main_nav_text ul {
-   margin-left: 20px;
-   margin-right: 20px;
+   margin-left: 75px;
+   margin-right: 75px;
   }
   /* Nav End */
 
@@ -2416,6 +2412,20 @@ hr.footer-hor-rule-small{
     font-family: 'Federo', sans-serif;
   }
 
+  .secondary_header h2{
+    font-size: 23px;
+    font-weight: 600;
+    color: #F9A11B;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+    .secondary_hor-rule{
+      width: 85%;
+      height: 8px;
+      background-color: #F9A11B;
+      margin: 0 0 15px 0;
+    }
+
   .collection-container{
     width: 300px;
   }
@@ -2462,10 +2472,13 @@ hr.footer-hor-rule-small{
     width: 100%;
     height:auto;
     background-color: transparent;
+    background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.2));
+
   }
 
   .main_nav_phone_toggle{
     background-color: #00A7E1;
+    background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0));
   }
 
   .logo_menu{
@@ -3156,6 +3169,22 @@ hr.footer-hor-rule-small{
   }
   /* Main Content End */
 
+  /* Contact */
+  .secondary_header h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F9A11B;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+    .secondary_hor-rule{
+      width: 98%;
+      height: 7px;
+      background-color: #F9A11B;
+      margin: 0 0 15px 0;
+    }
+  /* Contact End */
+
   /* Footer */
   .footer-text-main{
     font-size: 13px;
@@ -3302,6 +3331,16 @@ hr.footer-hor-rule-small{
     line-height: 30px;
   }
   /* Collection Product Showcase Template End */
+
+  /* Contact */
+  .submit-hidden-desktop {
+    display: none;
+  }
+
+  .submit-hidden-mobile {
+    display: block;
+  }
+  /* Contact End */
 }
 
 @media screen and (max-width: 555px) {
@@ -3691,6 +3730,15 @@ hr.footer-hor-rule-small{
       height:auto;
     }
   /* Dealer Locator End*/
+
+  /* Contact */
+  .secondary_header h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #F9A11B;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* Contact End */
 }
 
 @media screen and (max-width: 400px){
@@ -4119,6 +4167,15 @@ hr.footer-hor-rule-small{
     line-height: 22px;
   }
   /* Dealer Locator End */
+
+  /* Contact */
+  .secondary_header h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #F9A11B;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* Contact End */
 }
 
 @media screen and (max-width: 320px) {
