@@ -108,6 +108,21 @@ body {
   text-align: right;
 }
 
+  .capeso-main-image-box h5{
+    font-family: 'Federo', sans-serif;
+    color: #ffffff;
+    font-size:60px;
+    line-height: 60px;
+    padding: 0 0 0 5px;
+  }
+
+  .capeso-main-box-text h6{
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0 0 0 5px;
+  }
+
+
 .heroskip-container{
   position: absolute;
   z-index: 2;
@@ -851,6 +866,21 @@ hr.footer-hor-rule-small{
   color: #000000;
 }
 /* End Footer */
+@media screen and (max-width: 1795px){
+  .capeso-main-image-box h5{
+    font-family: 'Federo', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 60px;
+    padding: 0 0 0 5px;
+  }
+
+  .capeso-main-box-text h6{
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0 0 0 5px;
+  }
+}
 
 @media screen and (max-width: 1770px){
   /* Nav */
@@ -1134,6 +1164,22 @@ hr.footer-hor-rule-small{
     line-height: 25px;
   }
   /* Collection Product Showcase Template End */
+ }
+
+ @media screen and (max-width: 1514px){
+   .capeso-main-image-box h5{
+     font-family: 'Federo', sans-serif;
+     color: #ffffff;
+     font-size: 40px;
+     line-height: 50px;
+     padding: 0 0 0 5px;
+   }
+
+   .capeso-main-box-text h6{
+     font-size: 20px;
+     line-height: 20px;
+     padding: 0 0 0 5px;
+   }
  }
 
  @media screen and (max-width: 1480px) {
@@ -1490,6 +1536,20 @@ hr.footer-hor-rule-small{
     text-align: right;
   }
 
+    .capeso-main-image-box h5{
+      font-family: 'Federo', sans-serif;
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 40px;
+      padding: 0 0 0 5px;
+    }
+
+    .capeso-main-box-text h6{
+      font-size: 18px;
+      line-height: 18px;
+      padding: 0 0 0 5px;
+    }
+
   .heroskip-container{
     position: absolute;
     z-index: 2;
@@ -1703,6 +1763,26 @@ hr.footer-hor-rule-small{
   /* Collection Product Showcase Template End */
 }
 
+@media screen and (max-width: 1160px){
+ .capeso-main-image-box-home{
+    width: 80%;
+ }
+
+ .capeso-main-image-box h5{
+   font-family: 'Federo', sans-serif;
+   color: #ffffff;
+   font-size: 40px;
+   line-height: 40px;
+   padding: 0 0 0 5px;
+ }
+
+ .capeso-main-box-text h6{
+   font-size: 20px;
+   line-height: 20px;
+   padding: 0 0 0 5px;
+ }
+}
+
 @media screen and (max-width: 1150px){
   /* Nav */
   .main_nav_text{
@@ -1745,6 +1825,24 @@ hr.footer-hor-rule-small{
     padding: 15px 25px 15px 15px;
     text-align: right;
   }
+
+    .capeso-main-image-box-home{
+       width: 80%;
+    }
+
+    .capeso-main-image-box h5{
+      font-family: 'Federo', sans-serif;
+      color: #ffffff;
+      font-size: 40px;
+      line-height: 40px;
+      padding: 0 0 0 5px;
+    }
+
+    .capeso-main-box-text h6{
+      font-size: 20px;
+      line-height: 20px;
+      padding: 0 0 0 5px;
+    }
 
   .heroskip-container{
     position: absolute;
@@ -2330,6 +2428,26 @@ hr.footer-hor-rule-small{
   /* Collection Product Showcase Template End */
 }
 
+@media screen and (max-width: 918px){
+  .capeso-main-image-box-home{
+     width: 80%;
+  }
+
+  .capeso-main-image-box h5{
+    font-family: 'Federo', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0 0 0 5px;
+  }
+
+  .capeso-main-box-text h6{
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 0 0 5px;
+  }
+}
+
 @media screen and (max-width: 880px)  {
   /* nav */
   /* Positions nav text in from sides, removes padding, removes list bullets. */
@@ -2364,6 +2482,23 @@ hr.footer-hor-rule-small{
     width: 60px;
     height: auto;
   }
+    .capeso-main-image-box-home{
+       width: 80%;
+    }
+
+    .capeso-main-image-box h5{
+      font-family: 'Federo', sans-serif;
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 30px;
+      padding: 0 0 0 5px;
+    }
+
+    .capeso-main-box-text h6{
+      font-size: 20px;
+      line-height: 20px;
+      padding: 0 0 0 5px;
+    }
   /* Hero End */
 
   /* Collection Main Content */
@@ -2451,6 +2586,24 @@ hr.footer-hor-rule-small{
     width: 60px;
     height: auto;
   }
+
+    .capeso-main-image-box-home{
+       width: 90%;
+    }
+
+    .capeso-main-image-box h5{
+      font-family: 'Federo', sans-serif;
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 30px;
+      padding: 0 0 0 5px;
+    }
+
+    .capeso-main-box-text h6{
+      font-size: 20px;
+      line-height: 20px;
+      padding: 0 0 0 5px;
+    }
   /* Hero End */
 
   /* Main Content */
@@ -3176,6 +3329,24 @@ hr.footer-hor-rule-small{
     padding: 15px 25px 15px 15px;
     text-align: right;
   }
+
+    .capeso-main-image-box-home{
+       width: 90%;
+    }
+
+    .capeso-main-image-box h5{
+      font-family: 'Federo', sans-serif;
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 30px;
+      padding: 0 0 0 5px;
+    }
+
+    .capeso-main-box-text h6{
+      font-size: 20px;
+      line-height: 20px;
+      padding: 0 0 0 5px;
+    }
   /* Hero End */
 
   /* Main Content */
@@ -3312,6 +3483,24 @@ hr.footer-hor-rule-small{
     padding: 10px 20px 10px 10px;
     text-align: right;
   }
+
+    .capeso-main-image-box-home{
+       width: 90%;
+    }
+
+    .capeso-main-image-box h5{
+      font-family: 'Federo', sans-serif;
+      color: #ffffff;
+      font-size: 25px;
+      line-height: 25px;
+      padding: 0 0 0 5px;
+    }
+
+    .capeso-main-box-text h6{
+      font-size: 18px;
+      line-height: 18px;
+      padding: 0 0 0 5px;
+    }
   /* Hero End */
 
   /* Main Content */
@@ -3673,6 +3862,26 @@ hr.footer-hor-rule-small{
     line-height: 25px;
   }
   /* Collection Product Showcase Template End */
+}
+
+@media screen and (max-width: 475px){
+  .capeso-main-image-box-home{
+     width: 90%;
+  }
+
+  .capeso-main-image-box h5{
+    font-family: 'Federo', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 0 0 5px;
+  }
+
+  .capeso-main-box-text h6{
+    font-size: 15px;
+    line-height: 15px;
+    padding: 0 0 0 5px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -4038,6 +4247,26 @@ hr.footer-hor-rule-small{
 }
 
 @media screen and (max-width: 400px){
+  /* Hero */
+  .capeso-main-image-box-home{
+     width: 90%;
+  }
+
+  .capeso-main-image-box h5{
+    font-family: 'Federo', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0 0 0 5px;
+  }
+
+  .capeso-main-box-text h6{
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 0 0 5px;
+  }
+  /* Hero End */
+
   /* Main Content */
   .capeso-main-body{
     height: 500px;
@@ -4351,6 +4580,28 @@ hr.footer-hor-rule-small{
     line-height: 20px;
   }
   /* Collection Product Showcase Template End */
+}
+
+@media screen and (max-width: 355px) {
+  /* Hero */
+  .capeso-main-image-box-home{
+     width: 95%;
+  }
+
+  .capeso-main-image-box h5{
+    font-family: 'Federo', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0 0 0 5px;
+  }
+
+  .capeso-main-box-text h6{
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0 0 0 5px;
+  }
+  /* Hero End */
 }
 
 @media screen and (max-width: 350px) {
@@ -4762,6 +5013,28 @@ hr.footer-hor-rule-small{
     width: 60%;
   }
   /* Dealer Locator End */
+}
+
+@media screen and (max-width: 303px) {
+  /* Hero */
+  .capeso-main-image-box-home{
+     width: 95%;
+  }
+
+  .capeso-main-image-box h5{
+    font-family: 'Federo', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 0 0 5px;
+  }
+
+  .capeso-main-box-text h6{
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0 0 0 5px;
+  }
+  /* Hero End */
 }
 
 @media screen and (max-width: 290px) {
